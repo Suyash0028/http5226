@@ -1,0 +1,17 @@
+﻿﻿@model IEnumerable<n01629153_Event_Management.Models.EventDto>
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List of Events</h2>
+<a href="/Event/New">Add new Event</a>
+@foreach (var listEvents in Model)
+{
+    <h2><a href="/Event/Details/@listEvents.EventId">@listEvents.EventName</a></h2>
+    @*<div>Event Name: @listEvents.EventName</div>
+    <div>Event Description: @listEvents.EventDescription</div>
+    <div>Event Date: @listEvents.EventDate</div>
+    <div>Sponsor Name: @listEvents.SponsorName</div>
+    <div>Organized by: @listEvents.FirstName @listEvents.LastName</div>*@
+}
+

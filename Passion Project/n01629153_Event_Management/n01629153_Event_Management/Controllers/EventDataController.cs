@@ -35,20 +35,60 @@ namespace n01629153_Event_Management.Controllers
             List<EventDto> EventDtos = new List<EventDto>();
 
             Events.ForEach(e => EventDtos.Add(new EventDto()
-            {   
+            {
                 EventId = e.EventId,
                 EventName = e.EventName,
                 EventDescription = e.EventDescription,
                 EventDate = e.EventDate,
+                EventLocation = e.EventLocation,
+                SponsorId = e.Sponsors.SponsorId,
                 SponsorName = e.Sponsors.SponsorName,
+                UserId = e.EventUsers.UserId,
                 UserName = e.EventUsers.UserName,
                 FirstName = e.EventUsers.FirstName,
-                LastName = e.EventUsers.LastName, 
+                LastName = e.EventUsers.LastName
             }));
 
             return EventDtos;
         }
-        
+
+        /// <summary>
+        /// Gathers information about all events related to a particular sponsor ID
+        /// </summary>
+        /// <returns>
+        /// HEADER: 200 (OK)
+        /// CONTENT: all events in the database, including their associated sponsor matched with a particular sponsor ID
+        /// </returns>
+        /// <param name="id">Sponsor ID.</param>
+        /// <example>
+        /// GET: api/EventData/ListEventsForSponsors/3
+        /// </example>
+        [HttpGet]
+        [ResponseType(typeof(EventDto))]
+        public IHttpActionResult ListEventsForSponsors(int id)
+        {
+            List<Event> Events = db.Events.Where(a => a.SponsorId == id).ToList();
+            List<EventDto> EventDtos = new List<EventDto>();
+
+            Events.ForEach(e => EventDtos.Add(new EventDto()
+            {
+                EventId = e.EventId,
+                EventName = e.EventName,
+                EventDescription = e.EventDescription,
+                EventDate = e.EventDate,
+                EventLocation = e.EventLocation,
+                SponsorId = e.Sponsors.SponsorId,
+                SponsorName = e.Sponsors.SponsorName,
+                UserId = e.EventUsers.UserId,
+                UserName = e.EventUsers.UserName,
+                FirstName = e.EventUsers.FirstName,
+                LastName = e.EventUsers.LastName
+            }));
+
+            return Ok(EventDtos);
+        }
+
+
         /// <summary>
         /// Returns all events in the system.
         /// </summary>
@@ -74,7 +114,10 @@ namespace n01629153_Event_Management.Controllers
                 EventName = Event.EventName,
                 EventDescription = Event.EventDescription,
                 EventDate = Event.EventDate,
+                EventLocation = Event.EventLocation,
+                SponsorId = Event.Sponsors.SponsorId,
                 SponsorName = Event.Sponsors.SponsorName,
+                UserId = Event.EventUsers.UserId,
                 UserName = Event.EventUsers.UserName,
                 FirstName = Event.EventUsers.FirstName,
                 LastName = Event.EventUsers.LastName
@@ -167,7 +210,7 @@ namespace n01629153_Event_Management.Controllers
             db.Events.Add(Event);
             db.SaveChanges();
 
-            return CreatedAtRoute("DefaultApi", new { id = Event.EventId }, Event);
+            return Ok();
         }
 
         /// <summary>

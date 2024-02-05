@@ -19,7 +19,7 @@ namespace n01629153_Event_Management.Controllers
         static EventController()
         {
             client = new HttpClient();
-            client.BaseAddress = new Uri("https://localhost:44349/api/EventData/");
+            client.BaseAddress = new Uri("https://localhost:44349/api/");
         }
 
         // GET: Event
@@ -34,7 +34,7 @@ namespace n01629153_Event_Management.Controllers
             //objective: communicate with our event data api to retrieve a list of events
             //curl https://localhost:44349/api/EventData/ListEvents
 
-            string url = "ListEvents";
+            string url = "EventData/ListEvents";
             HttpResponseMessage response = client.GetAsync(url).Result;
 
             IEnumerable<EventDto> events = response.Content.ReadAsAsync<IEnumerable<EventDto>>().Result;
@@ -48,7 +48,7 @@ namespace n01629153_Event_Management.Controllers
             //objective: communicate with our Event data api to retrieve one Event
             //curl https://localhost:44349/api/Eventdata/FindEvent/{id}
 
-            string url = "FindEvent/" + id;
+            string url = "EventData/FindEvent/" + id;
             HttpResponseMessage response = client.GetAsync(url).Result;
 
             EventDto selectedEvent = response.Content.ReadAsAsync<EventDto>().Result;
@@ -58,14 +58,21 @@ namespace n01629153_Event_Management.Controllers
 
         public ActionResult Error()
         {
-
             return View();
         }
 
         // GET: Event/New
         public ActionResult New()
         {
-            return View();
+            //information about all species in the system.
+            //GET api/speciesdata/listspecies
+
+            string url = "SponsorData/ListSponsors";
+            HttpResponseMessage response = client.GetAsync(url).Result;
+
+            IEnumerable<SponsorDto> sponsors = response.Content.ReadAsAsync<IEnumerable<SponsorDto>>().Result;
+
+            return View(sponsors);
         }
 
         // POST: Event/Create
@@ -76,7 +83,7 @@ namespace n01629153_Event_Management.Controllers
             //Debug.WriteLine(Event.EventName);
             //objective: add a new Event into our system using the API
             //curl -H "Content-Type:application/json" -d @Event.json https://localhost:44349/api/Eventdata/addEvent 
-            string url = "AddEvent";
+            string url = "EventData/AddEvent";
 
 
             string jsonpayload = jss.Serialize(Event);
@@ -96,6 +103,7 @@ namespace n01629153_Event_Management.Controllers
             {
                 return RedirectToAction("Error");
             }
+            //return RedirectToAction("List");
         }
 
         // GET: Event/Edit/5
@@ -106,7 +114,7 @@ namespace n01629153_Event_Management.Controllers
             //objective: communicate with our Event data api to retrieve one Event
             //curl https://localhost:44349/api/Eventdata/FindEvent/{id}
 
-            string url = "FindEvent/" + id;
+            string url = "EventData/FindEvent/" + id;
             HttpResponseMessage response = client.GetAsync(url).Result;
 
             //Debug.WriteLine("The response code is ");
@@ -129,7 +137,7 @@ namespace n01629153_Event_Management.Controllers
                 //serialize into JSON
                 //Send the request to the API
 
-                string url = "UpdateEvent/" + id;
+                string url = "EventData/UpdateEvent/" + id;
 
 
                 string jsonpayload = jss.Serialize(Event);
@@ -150,25 +158,31 @@ namespace n01629153_Event_Management.Controllers
             }
         }
 
-        // GET: Event/Delete/5
-        public ActionResult Delete(int id)
+        // GET: Animal/Delete/5
+        public ActionResult DeleteConfirm(int id)
         {
-            return View();
+            string url = "EventData/FindEvent/" + id;
+            HttpResponseMessage response = client.GetAsync(url).Result;
+            EventDto selectedanimal = response.Content.ReadAsAsync<EventDto>().Result;
+            return View(selectedanimal);
         }
 
-        // POST: Event/Delete/5
+        // POST: Animal/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult Delete(int id)
         {
-            try
-            {
-                // TODO: Add delete logic here
+            string url = "EventData/DeleteEvent/" + id;
+            HttpContent content = new StringContent("");
+            content.Headers.ContentType.MediaType = "application/json";
+            HttpResponseMessage response = client.PostAsync(url, content).Result;
 
-                return RedirectToAction("Index");
-            }
-            catch
+            if (response.IsSuccessStatusCode)
             {
-                return View();
+                return RedirectToAction("List");
+            }
+            else
+            {
+                return RedirectToAction("Error");
             }
         }
     }

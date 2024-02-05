@@ -16,7 +16,7 @@ namespace n01629153_Event_Management
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Event", action = "List", id = UrlParameter.Optional }
             );
         }
     }

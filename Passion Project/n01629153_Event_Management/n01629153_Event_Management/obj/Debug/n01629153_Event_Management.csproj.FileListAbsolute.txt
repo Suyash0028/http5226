@@ -116,3 +116,6 @@ C:\Users\n01629153\source\repos\http5226\Passion Project\n01629153_Event_Managem
 C:\Users\n01629153\source\repos\http5226\Passion Project\n01629153_Event_Management\n01629153_Event_Management\obj\Debug\n01629153_Event_Management.csproj.GenerateResource.cache
 C:\Users\n01629153\source\repos\http5226\Passion Project\n01629153_Event_Management\n01629153_Event_Management\obj\Debug\n01629153_Event_Management.Migrations.events.resources
 C:\Users\n01629153\source\repos\http5226\Passion Project\n01629153_Event_Management\n01629153_Event_Management\obj\Debug\n01629153_Event_Management.Migrations.AddedForeignKey.resources
+C:\Users\n01629153\source\repos\http5226\Passion Project\n01629153_Event_Management\n01629153_Event_Management\obj\Debug\n01629153_Event_Management.Migrations.updatedmodel.resources
+C:\Users\n01629153\source\repos\http5226\Passion Project\n01629153_Event_Management\n01629153_Event_Management\obj\Debug\n01629153_Event_Management.Migrations.changesinmodel.resources
+C:\Users\n01629153\source\repos\http5226\Passion Project\n01629153_Event_Management\n01629153_Event_Management\obj\Debug\n01629153_Event_Management.Migrations.updatecheck.resources

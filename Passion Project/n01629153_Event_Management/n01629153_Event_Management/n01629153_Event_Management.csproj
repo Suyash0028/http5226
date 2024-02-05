@@ -186,6 +186,8 @@
     <Compile Include="Controllers\EventDataController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\SponsorController.cs" />
+    <Compile Include="Controllers\SponsorDataController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -200,6 +202,18 @@
     <Compile Include="Migrations\202402041901326_AddedForeignKey.cs" />
     <Compile Include="Migrations\202402041901326_AddedForeignKey.designer.cs">
       <DependentUpon>202402041901326_AddedForeignKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202402052118171_updatedmodel.cs" />
+    <Compile Include="Migrations\202402052118171_updatedmodel.designer.cs">
+      <DependentUpon>202402052118171_updatedmodel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202402052224362_changesinmodel.cs" />
+    <Compile Include="Migrations\202402052224362_changesinmodel.designer.cs">
+      <DependentUpon>202402052224362_changesinmodel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202402052252401_updatecheck.cs" />
+    <Compile Include="Migrations\202402052252401_updatecheck.designer.cs">
+      <DependentUpon>202402052252401_updatecheck.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -286,9 +300,12 @@
     <Content Include="Views\Event\New.cshtml" />
     <Content Include="Views\Event\Error.cshtml" />
     <Content Include="Views\Event\Details.cshtml" />
+    <Content Include="Views\Event\Edit.cshtml" />
+    <Content Include="Views\Event\DeleteConfirm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Sponsor\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
@@ -326,6 +343,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202402041901326_AddedForeignKey.resx">
       <DependentUpon>202402041901326_AddedForeignKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202402052118171_updatedmodel.resx">
+      <DependentUpon>202402052118171_updatedmodel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202402052224362_changesinmodel.resx">
+      <DependentUpon>202402052224362_changesinmodel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202402052252401_updatecheck.resx">
+      <DependentUpon>202402052252401_updatecheck.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

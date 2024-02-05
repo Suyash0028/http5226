@@ -1,29 +1,43 @@
-﻿﻿@model IEnumerable<n01629153_Event_Management.Models.SponsorDto>
+﻿@model IEnumerable<n01629153_Event_Management.Models.SponsorDto>
 @{
     ViewBag.Title = "New";
 }
 
 <h2>Create Event</h2>
-<form action="/Event/Create" method="POST">
-    <div>
-        <label>Event Name:</label> <input type="text" name="EventName" />
+<a class="btn btn-primary mt-3 float-end" href="/Event/List">Back to list</a>
+<form action="/Event/Create" method="POST" class="mt-3">
+    <div class="mb-3">
+        <label for="eventName" class="form-label">Event Name:</label>
+        <input type="text" class="form-control" id="eventName" placeholder="Enter event name" name="EventName">
     </div>
-    <div>
-        <label>Event Description:</label> <input type="text" name="EventDescription" />
+    <div class="mb-3">
+        <label for="eventDescription" class="form-label">Event Description:</label>
+        <textarea class="form-control" id="eventDescription" rows="3" name="EventDescription"></textarea>
     </div>
-    <div>
-        <label>Event Date:</label> <input type="date" name="EventDate" />
+    <div class="mb-3">
+        <label for="eventDate" class="form-label">Event Date:</label>
+        <input type="date" class="form-control" id="eventDate" name="EventDate">
     </div>
-    <div>
-        <label>Event Location:</label> <input type="text" name="EventLocation" />
+    <div class="mb-3">
+        <label for="eventLocation" class="form-label">Event Location:</label>
+        <input type="text" class="form-control" id="eventLocation" placeholder="Enter event location" name="EventLocation">
     </div>
-    <div>
-        <label>Sponsor ID:</label> <input type="number" name="SponsorId" />
+    <div class="mb-3">
+        <label for="sponsorId" class="form-label">Sponsored By:</label>
+        <select class="form-select">
+            <option selected disabled>---Select Sponsors---</option>
+            @foreach (var sponsor in Model)
+             {
+                <option value="@sponsor.SponsorId">@sponsor.SponsorName</option>
+
+             }
+        </select>
     </div>
-    <div>
-        <label>User ID:</label> <input type="number" name="UserId" />
+    <div class="mb-3">
+        <label for="userId" class="form-label">Organized By:</label>
+        <input type="number" class="form-control" id="userId" name="UserId">
     </div>
-    <div>
-        <input type="submit" value="Add Event" />
+    <div class="mb-3">
+        <input type="submit" class="btn btn-primary mb-3" value="Add Event">
     </div>
 </form>

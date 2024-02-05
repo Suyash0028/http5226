@@ -3,15 +3,66 @@
     ViewBag.Title = "List";
 }
 
-<h2>List of Events</h2>
-<a href="/Event/New">Add new Event</a>
-@foreach (var listEvents in Model)
-{
-    <h2><a href="/Event/Details/@listEvents.EventId">@listEvents.EventName</a></h2>
-    @*<div>Event Name: @listEvents.EventName</div>
-    <div>Event Description: @listEvents.EventDescription</div>
-    <div>Event Date: @listEvents.EventDate</div>
-    <div>Sponsor Name: @listEvents.SponsorName</div>
-    <div>Organized by: @listEvents.FirstName @listEvents.LastName</div>*@
-}
+<a class="btn btn-primary m-3 float-end" href="/Event/New">Add new Event</a>
 
+<div class="accordion accordion-flush" id="accordionFlushExample">
+
+    @if (@Model.Where(e => e.EventDate < DateTime.Now).Count() > 0)
+    {
+        <h3 class="m-3">Upcoming Events</h3>
+        foreach (var listEvents in @Model.Where(e => e.EventDate > DateTime.Now))
+        {
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-@listEvents.EventId" aria-expanded="false" aria-controls="flush-@listEvents.EventId">
+                        @listEvents.EventName
+                    </button>
+                </h2>
+                <div id="flush-@listEvents.EventId" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <strong><a href="/Event/Details/@listEvents.EventId">@listEvents.EventName</a></strong>
+                        <div><strong>Date: @listEvents.EventDate</strong></div>
+                        <div><strong>Event Description:</strong> @listEvents.EventDescription</div>
+                        <div><strong>Sponsor Name:</strong> @listEvents.SponsorName</div>
+                        <div><strong>Organized by:</strong> @listEvents.FirstName @listEvents.LastName</div>
+                        <div><strong>Responsible:</strong> @listEvents.UserName</div>
+                        <div>
+                            <a class="btn btn-primary" href="/Event/Edit/@listEvents.EventId">Edit</a>
+                            <a class="btn btn-danger float-r" href="/Event/DeleteConfirm/@listEvents.EventId">Delete</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        }
+    }
+
+    @if (@Model.Where(e => e.EventDate < DateTime.Now).Count() > 0)
+    {
+        <h3 class="m-3">Past Events</h3>
+        foreach (var listEvents in @Model.Where(e => e.EventDate < DateTime.Now))
+        {
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-@listEvents.EventId" aria-expanded="false" aria-controls="flush-@listEvents.EventId">
+                        @listEvents.EventName
+                    </button>
+                </h2>
+                <div id="flush-@listEvents.EventId" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <strong><a href="/Event/Details/@listEvents.EventId">@listEvents.EventName</a></strong>
+                        <div><strong>Date: @listEvents.EventDate</strong></div>
+                        <div><strong>Event Description:</strong> @listEvents.EventDescription</div>
+                        <div><strong>Sponsor Name:</strong> @listEvents.SponsorName</div>
+                        <div><strong>Organized by:</strong> @listEvents.FirstName @listEvents.LastName</div>
+                        <div><strong>Responsible:</strong> @listEvents.UserName</div>
+                        <div>
+                            <a class="btn btn-primary" href="/Event/Edit/@listEvents.EventId">Edit</a>
+                            <a class="btn btn-danger float-r" href="/Event/DeleteConfirm/@listEvents.EventId">Delete</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>

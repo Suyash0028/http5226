@@ -18,8 +18,9 @@
             </button>
             <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
                 <ul class="navbar-nav flex-grow-1">
-                    <li>@Html.ActionLink("List", "List", "Event", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Add Event", "New", "Event", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Events", "List", "Event", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Sponsors", "List", "Sponsor", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Users", "List", "User", new { area = "" }, new { @class = "nav-link" })</li>
                 </ul>
                  @Html.Partial("_LoginPartial")
             </div>
@@ -27,9 +28,10 @@
     </nav>
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+       
+        <footer style="position:fixed;left:0;bottom:0;width:100%;text-align:center">
+            <hr />
+            <p>&copy; @DateTime.Now.Year - Event Management Application</p>
         </footer>
     </div>
 

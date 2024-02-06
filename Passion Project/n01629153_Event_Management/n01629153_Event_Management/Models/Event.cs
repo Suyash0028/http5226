@@ -13,8 +13,6 @@ namespace n01629153_Event_Management.Models
         public int EventId { get; set; }
         public string EventName { get; set; }
         public string EventDescription { get; set; }
-        [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:yyyy/MM/dd}", ApplyFormatInEditMode = true)]
         public DateTime EventDate { get; set; }
         public string EventLocation { get; set; }
 

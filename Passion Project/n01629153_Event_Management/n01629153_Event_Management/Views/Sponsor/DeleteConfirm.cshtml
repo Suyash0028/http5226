@@ -1,0 +1,22 @@
+﻿@model n01629153_Event_Management.Models.SponsorDto
+@{
+    ViewBag.Title = "DeleteConfirm";
+}
+
+<div class="modal-dialog m-5" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">@Model.SponsorName</h5>
+            <a class="close" data-dismiss="modal" aria-label="Close" href="/Sponsor/List"> <span aria-hidden="true">&times;</span></a>
+        </div>
+        <div class="modal-body">
+            Are you sure you want to delete this sponsor?
+        </div>
+        <div class="modal-footer">
+            <a class="btn btn-secondary" href="/Sponsor/List">Cancel</a>
+            <form action="/Sponsor/Delete/@Model.SponsorId" method="POST">
+                <input class="btn btn-danger m-3" type="submit" value="Confirm Delete" />
+            </form>
+        </div>
+    </div>
+</div>

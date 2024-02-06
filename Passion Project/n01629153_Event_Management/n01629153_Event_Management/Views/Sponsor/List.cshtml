@@ -1,0 +1,17 @@
+﻿﻿@model IEnumerable<n01629153_Event_Management.Models.SponsorDto>
+@{
+    ViewBag.Title = "List";
+}
+
+<h2 class="m-3">Sponsors</h2>
+<a class="btn btn-primary m-3 float-t" href="/Sponsor/New">Add new Sponsor</a>
+<ul class="list-group">
+    @foreach (var sponsor in Model)
+    {
+      <li class="list-group-item">
+          <h4><a class="font-weight-bold" href="/Sponsor/Details/@sponsor.SponsorId">@sponsor.SponsorName</a></h4>
+          <a class="btn btn-primary float-end m-2" href="/Sponsor/Edit/@sponsor.SponsorId">Edit</a>
+          <a class="btn btn-danger float-end m-2" href="/Sponsor/DeleteConfirm/@sponsor.SponsorId">Delete</a>
+      </li>
+    }
+</ul>

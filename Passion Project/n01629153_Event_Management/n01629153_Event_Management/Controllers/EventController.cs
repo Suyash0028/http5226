@@ -1,4 +1,5 @@
 ﻿using n01629153_Event_Management.Models;
+using n01629153_Event_Management.Models.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -114,6 +115,7 @@ namespace n01629153_Event_Management.Controllers
             //objective: communicate with our Event data api to retrieve one Event
             //curl https://localhost:44349/api/Eventdata/FindEvent/{id}
 
+            UpdateEvent ViewModel = new UpdateEvent();
             string url = "EventData/FindEvent/" + id;
             HttpResponseMessage response = client.GetAsync(url).Result;
 
@@ -121,10 +123,27 @@ namespace n01629153_Event_Management.Controllers
             //Debug.WriteLine(response.StatusCode);
 
             EventDto selectedEvent = response.Content.ReadAsAsync<EventDto>().Result;
-            //Debug.WriteLine("Event received : ");
-            //Debug.WriteLine(selectedEvent.EventName);
+            ViewModel.SelectedEvent = selectedEvent;
+            ViewBag.EventDate = Convert.ToDateTime(selectedEvent.EventDate).ToString("yyyy-MM-dd");
 
-            return View(selectedEvent);
+            // all species to choose from when updating this event
+            //the existing event information
+            url = "SponsorData/ListSponsors/";
+            response = client.GetAsync(url).Result;
+            IEnumerable<SponsorDto> SponsorOptions = response.Content.ReadAsAsync<IEnumerable<SponsorDto>>().Result;
+
+
+            // all species to choose from when updating this event
+            //the existing event information
+
+            //url = "UserData/ListUsers/";
+            //response = client.GetAsync(url).Result;
+           // IEnumerable<UserDto> UserOptions = response.Content.ReadAsAsync<IEnumerable<UserDto>>().Result;
+
+            ViewModel.SponsorOptions = SponsorOptions;
+            //ViewModel.UserOptions = UserOptions;
+
+            return View(ViewModel);
         }
 
         // POST: Event/Update/5

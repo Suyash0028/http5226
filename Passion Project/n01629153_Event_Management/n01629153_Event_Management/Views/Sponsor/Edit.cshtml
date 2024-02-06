@@ -1,0 +1,28 @@
+﻿@model n01629153_Event_Management.Models.SponsorDto
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+<a class="btn btn-primary mt-3 float-end" href="/Sponsor/List">Back to list</a>
+<form action="/Sponsor/Update/@Model.SponsorId" method="POST" class="mt-3">
+    <div style="display:none;">
+        @* Pass through the sponsor ID *@
+        <input type="text" name="SponsorId" value="@Model.SponsorId" />
+    </div>
+    <div class="mb-3">
+        <label for="sponsorName" class="form-label">Sponsorer Name:</label>
+        <input type="text" class="form-control" id="sponsorName" placeholder="Enter sponsor name" name="SponsorName" value="@Model.SponsorName">
+    </div>
+    <div class="mb-3">
+        <label for="contactPerson" class="form-label">Contact Person:</label>
+        <input type="text" class="form-control" id="contactPerson" placeholder="Enter contact person name" name="ContactPerson" value="@Model.ContactPerson">
+    </div>
+    <div class="mb-3">
+        <label for="contactEmail" class="form-label">Enter contact e-mail:</label>
+        <input type="email" class="form-control" id="contactEmail" placeholder="Enter contact email" name="ContactEmail" value="@Model.ContactEmail">
+    </div>
+    <div class="mb-3">
+        <input type="submit" class="btn btn-primary mb-3" value="Update Sponsor">
+    </div>
+</form>

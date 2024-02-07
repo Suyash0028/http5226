@@ -1,4 +1,5 @@
-﻿@model IEnumerable<n01629153_Event_Management.Models.SponsorDto>
+﻿@model n01629153_Event_Management.Models.ViewModel.NewEvent
+
 @{
     ViewBag.Title = "New";
 }
@@ -24,9 +25,9 @@
     </div>
     <div class="mb-3">
         <label for="sponsorId" class="form-label">Sponsored By:</label>
-        <select class="form-select">
+        <select class="form-select" name="SponsorId">
             <option selected disabled>---Select Sponsors---</option>
-            @foreach (var sponsor in Model)
+            @foreach (var sponsor in Model.SponsorOptions)
              {
                 <option value="@sponsor.SponsorId">@sponsor.SponsorName</option>
 
@@ -35,7 +36,13 @@
     </div>
     <div class="mb-3">
         <label for="userId" class="form-label">Organized By:</label>
-        <input type="number" class="form-control" id="userId" name="UserId">
+        <select class="form-select" name="UserId">
+            <option selected disabled>---Select Sponsors---</option>
+            @foreach (var user in Model.UserOptions)
+             {
+                <option value="@user.UserId">@user.UserName</option>
+             }
+        </select>
     </div>
     <div class="mb-3">
         <input type="submit" class="btn btn-primary mb-3" value="Add Event">

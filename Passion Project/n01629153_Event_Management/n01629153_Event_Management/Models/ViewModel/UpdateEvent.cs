@@ -16,6 +16,6 @@ namespace n01629153_Event_Management.Models.ViewModel
         // all sponsor to choose from when updating this event
 
         public IEnumerable<SponsorDto> SponsorOptions { get; set; }
-        //public IEnumerable<UserDto> UserOptions { get; set; }
+        public IEnumerable<UserDto> UserOptions { get; set; }
     }
 }

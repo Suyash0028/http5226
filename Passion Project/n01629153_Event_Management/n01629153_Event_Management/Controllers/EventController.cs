@@ -8,6 +8,7 @@ using System.Net.Http;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Script.Serialization;
+using System.Web.UI.WebControls;
 
 namespace n01629153_Event_Management.Controllers
 {
@@ -67,13 +68,23 @@ namespace n01629153_Event_Management.Controllers
         {
             //information about all species in the system.
             //GET api/speciesdata/listspecies
+            NewEvent ViewModel = new NewEvent();
 
+            // Get all sponsors
             string url = "SponsorData/ListSponsors";
             HttpResponseMessage response = client.GetAsync(url).Result;
-
             IEnumerable<SponsorDto> sponsors = response.Content.ReadAsAsync<IEnumerable<SponsorDto>>().Result;
 
-            return View(sponsors);
+
+            //get all users
+            string userUrl = "UserData/ListUsers";
+            HttpResponseMessage userResponse = client.GetAsync(userUrl).Result;
+            IEnumerable<UserDto> users = userResponse.Content.ReadAsAsync<IEnumerable<UserDto>>().Result;
+
+            ViewModel.SponsorOptions = sponsors;
+            ViewModel.UserOptions = users;
+
+            return View(ViewModel);
         }
 
         // POST: Event/Create
@@ -104,7 +115,6 @@ namespace n01629153_Event_Management.Controllers
             {
                 return RedirectToAction("Error");
             }
-            //return RedirectToAction("List");
         }
 
         // GET: Event/Edit/5
@@ -136,12 +146,12 @@ namespace n01629153_Event_Management.Controllers
             // all species to choose from when updating this event
             //the existing event information
 
-            //url = "UserData/ListUsers/";
-            //response = client.GetAsync(url).Result;
-           // IEnumerable<UserDto> UserOptions = response.Content.ReadAsAsync<IEnumerable<UserDto>>().Result;
+            url = "UserData/ListUsers/";
+            response = client.GetAsync(url).Result;
+            IEnumerable<UserDto> UserOptions = response.Content.ReadAsAsync<IEnumerable<UserDto>>().Result;
 
             ViewModel.SponsorOptions = SponsorOptions;
-            //ViewModel.UserOptions = UserOptions;
+            ViewModel.UserOptions = UserOptions;
 
             return View(ViewModel);
         }
@@ -177,16 +187,16 @@ namespace n01629153_Event_Management.Controllers
             }
         }
 
-        // GET: Animal/Delete/5
+        // GET: Event/Delete/5
         public ActionResult DeleteConfirm(int id)
         {
             string url = "EventData/FindEvent/" + id;
             HttpResponseMessage response = client.GetAsync(url).Result;
-            EventDto selectedanimal = response.Content.ReadAsAsync<EventDto>().Result;
-            return View(selectedanimal);
+            EventDto selectedevent = response.Content.ReadAsAsync<EventDto>().Result;
+            return View(selectedevent);
         }
 
-        // POST: Animal/Delete/5
+        // POST: Event/Delete/5
         [HttpPost]
         public ActionResult Delete(int id)
         {

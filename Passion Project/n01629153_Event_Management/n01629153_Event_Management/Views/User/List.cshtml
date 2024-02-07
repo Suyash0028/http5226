@@ -1,0 +1,47 @@
+﻿﻿@model IEnumerable<n01629153_Event_Management.Models.UserDto>
+@{
+    ViewBag.Title = "List";
+}
+
+<h2 class="m-3">Users</h2>
+<a class="btn btn-primary float-end" href="/User/New">Add new user</a>
+<table class="table align-items-center">
+    <thead>
+        <tr>
+            <th scope="col">#Id</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">User Name</th>
+            <th scope="col">E-Mail</th>
+            <th scope="col">Phone Number</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <th scope="row">@user.UserId</th>
+                <td>
+                    @user.FirstName
+                </td>
+                <td>
+                    @user.LastName
+                </td>
+                <td>
+                    @user.UserName
+                </td>
+                <td>
+                    @user.Email
+                </td>
+                <td>
+                    @user.PhoneNumber
+                </td>
+                <td class="align-items-center">
+                    <a class="btn btn-primary m-2" href="/User/Edit/@user.UserId">Edit</a>
+                    <a class="btn btn-danger m-2" href="/User/DeleteConfirm/@user.UserId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

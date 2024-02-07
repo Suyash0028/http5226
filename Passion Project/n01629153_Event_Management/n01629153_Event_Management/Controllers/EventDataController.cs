@@ -53,6 +53,8 @@ namespace n01629153_Event_Management.Controllers
             return EventDtos;
         }
 
+
+
         /// <summary>
         /// Gathers information about all events related to a particular sponsor ID
         /// </summary>
@@ -66,7 +68,8 @@ namespace n01629153_Event_Management.Controllers
         /// </example>
         [HttpGet]
         [ResponseType(typeof(EventDto))]
-        public IHttpActionResult ListEventsForSponsors(int id)
+        [Route("api/EventData/ListEventsForSponsors/{id}")]
+        public List<EventDto> ListEventsForSponsors(int id)
         {
             List<Event> Events = db.Events.Where(a => a.SponsorId == id).ToList();
             List<EventDto> EventDtos = new List<EventDto>();
@@ -86,10 +89,8 @@ namespace n01629153_Event_Management.Controllers
                 LastName = e.EventUsers.LastName
             }));
 
-            return Ok(EventDtos);
+            return EventDtos;
         }
-
-
         /// <summary>
         /// Returns all events in the system.
         /// </summary>

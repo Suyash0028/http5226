@@ -10,7 +10,7 @@
     @if (@Model.Where(e => e.EventDate < DateTime.Now).Count() > 0)
     {
         <h3 class="m-3">Upcoming Events</h3>
-        foreach (var listEvents in @Model.Where(e => e.EventDate > DateTime.Now))
+        foreach (var listEvents in @Model.Where(e => e.EventDate > DateTime.Now).OrderBy(x => x.EventDate))
         {
             <div class="accordion-item">
                 <h2 class="accordion-header">
@@ -40,7 +40,7 @@
     @if (@Model.Where(e => e.EventDate < DateTime.Now).Count() > 0)
     {
         <h3 class="m-3">Past Events</h3>
-        foreach (var listEvents in @Model.Where(e => e.EventDate < DateTime.Now))
+        foreach (var listEvents in @Model.Where(e => e.EventDate < DateTime.Now).OrderBy(x => x.EventDate))
         {
             <div class="accordion-item">
                 <h2 class="accordion-header">

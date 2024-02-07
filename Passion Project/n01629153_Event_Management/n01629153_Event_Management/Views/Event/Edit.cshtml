@@ -30,21 +30,32 @@
     <div class="mb-3">
         <label for="sponsorId" class="form-label">Sponsored By:</label>
         <select class="form-select" name="SponsorId" id="sponsorId">
-            <option selected disabled>---Select Sponsors---</option>
+            <option disabled>---Select Sponsors---</option>
             @foreach (var sponsor in Model.SponsorOptions)
-             {
+            {
                 string selected = "";
                 if (sponsor.SponsorId == Model.SelectedEvent.SponsorId)
                 {
                     selected = "selected";
                 }
                 <option value="@sponsor.SponsorId" @selected>@sponsor.SponsorName</option>
-             }
+            }
         </select>
     </div>
     <div class="mb-3">
-        <label for="userId" class="form-label">User:</label>
-        <input type="number" class="form-control" id="userId" name="UserId" value="@Model.SelectedEvent.UserId">
+        <label for="userId" class="form-label">Organized By:</label>
+        <select class="form-select" name="UserId" id="userId">
+            <option disabled>---Select Users---</option>
+            @foreach (var user in Model.UserOptions)
+            {
+                string selected = "";
+                if (user.UserId == Model.SelectedEvent.UserId)
+                {
+                    selected = "selected";
+                }
+                <option value="@user.UserId" @selected>@user.UserName</option>
+            }
+        </select>
     </div>
     <div class="mb-3">
         <input type="submit" class="btn btn-primary mb-3" value="Update">

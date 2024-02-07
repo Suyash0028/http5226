@@ -18,7 +18,7 @@ namespace n01629153_Event_Management.Controllers
         static SponsorController()
         {
             client = new HttpClient();
-            client.BaseAddress = new Uri("https://localhost:44349/api/SponsorData/");
+            client.BaseAddress = new Uri("https://localhost:44349/api/");
         }
 
         // GET: Sponsor
@@ -33,7 +33,7 @@ namespace n01629153_Event_Management.Controllers
             //objective: communicate with our Sponsor data api to retrieve a list of sponsors
             //curl https://localhost:44349/api/SponsorData/ListSponsors
 
-            string url = "ListSponsors";
+            string url = "SponsorData/ListSponsors";
             HttpResponseMessage response = client.GetAsync(url).Result;
 
             IEnumerable<SponsorDto> sponsors = response.Content.ReadAsAsync<IEnumerable<SponsorDto>>().Result;
@@ -47,12 +47,12 @@ namespace n01629153_Event_Management.Controllers
             //objective: communicate with our Sponsor data api to retrieve one Sponsor
             //curl https://localhost:44349/api/SponsorData/FindSponsor/{id}
 
-            string url = "FindSponsor/" + id;
+            string url = "SponsorData/FindSponsor/" + id;
             HttpResponseMessage response = client.GetAsync(url).Result;
 
-            SponsorDto selectedEvent = response.Content.ReadAsAsync<SponsorDto>().Result;
+            SponsorDto selectedSponsor = response.Content.ReadAsAsync<SponsorDto>().Result;
 
-            return View(selectedEvent);
+            return View(selectedSponsor);
         }
 
         public ActionResult Error()
@@ -74,7 +74,7 @@ namespace n01629153_Event_Management.Controllers
             //Debug.WriteLine(Sponsor.EventName);
             //objective: add a new Sponsor into our system using the API
             //curl -H "Content-Type:application/json" -d @Sponsor.json https://localhost:44349/api/SponsorData/AddSponsor 
-            string url = "AddSponsor";
+            string url = "SponsorData/AddSponsor";
 
 
             string jsonpayload = jss.Serialize(Sponsor);
@@ -105,7 +105,7 @@ namespace n01629153_Event_Management.Controllers
             //objective: communicate with our Sponsor data api to retrieve one Sponsor
             //curl https://localhost:44349/api/SponsorData/FindSponsor/{id}
 
-            string url = "FindSponsor/" + id;
+            string url = "SponsorData/FindSponsor/" + id;
             HttpResponseMessage response = client.GetAsync(url).Result;
 
             //Debug.WriteLine("The response code is ");
@@ -128,7 +128,7 @@ namespace n01629153_Event_Management.Controllers
                 //serialize into JSON
                 //Send the request to the API
 
-                string url = "UpdateSponsor/" + id;
+                string url = "SponsorData/UpdateSponsor/" + id;
 
 
                 string jsonpayload = jss.Serialize(Sponsor);
@@ -152,7 +152,7 @@ namespace n01629153_Event_Management.Controllers
         // GET: Animal/Delete/5
         public ActionResult DeleteConfirm(int id)
         {
-            string url = "FindSponsor/" + id;
+            string url = "SponsorData/FindSponsor/" + id;
             HttpResponseMessage response = client.GetAsync(url).Result;
             SponsorDto selectedanimal = response.Content.ReadAsAsync<SponsorDto>().Result;
             return View(selectedanimal);
@@ -162,7 +162,7 @@ namespace n01629153_Event_Management.Controllers
         [HttpPost]
         public ActionResult Delete(int id)
         {
-            string url = "DeleteSponsor/" + id;
+            string url = "SponsorData/DeleteSponsor/" + id;
             HttpContent content = new StringContent("");
             content.Headers.ContentType.MediaType = "application/json";
             HttpResponseMessage response = client.PostAsync(url, content).Result;
@@ -175,6 +175,25 @@ namespace n01629153_Event_Management.Controllers
             {
                 return RedirectToAction("Error");
             }
+        }
+        // GET: Sponsor/ShowEvents
+        public ActionResult ShowEvents(int id)
+        {
+            //objective: communicate with our Event data api to retrieve a list of events based on sponsor id
+            //curl https://localhost:44349/EventData/ListEventsForSponsors/
+
+            string url = "EventData/ListEventsForSponsors/" + id;
+            HttpResponseMessage response = client.GetAsync(url).Result;
+
+            IEnumerable<EventDto> sponsors = response.Content.ReadAsAsync<IEnumerable<EventDto>>().Result;
+
+            string sponsorUrl = "SponsorData/FindSponsor/" + id;
+            HttpResponseMessage res = client.GetAsync(sponsorUrl).Result;
+
+            SponsorDto selectedSponsor = res.Content.ReadAsAsync<SponsorDto>().Result; 
+            ViewBag.SponsorName = selectedSponsor.SponsorName;
+
+            return View(sponsors);
         }
     }
 }

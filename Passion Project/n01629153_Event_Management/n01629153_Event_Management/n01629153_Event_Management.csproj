@@ -327,6 +327,7 @@
     <Content Include="Views\User\New.cshtml" />
     <Content Include="Views\User\Edit.cshtml" />
     <Content Include="Views\Sponsor\ShowEvents.cshtml" />
+    <Content Include="Views\User\ShowEvents.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

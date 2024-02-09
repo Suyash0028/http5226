@@ -3,11 +3,9 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
-
-<a class="btn btn-primary mt-3" href="/Event/List">Back to list</a>
+<a class="btn btn-primary float-end" href="/Event/List">Back to list</a>
 <h2>@Model.EventName</h2>
-<div>Event Description: @Model.EventDescription</div>
-<div>Event Date: @Model.EventDate</div>
-<div>Sponsor Name: @Model.SponsorName</div>
-<div>Organized by: @Model.FirstName @Model.LastName</div>
+<div><strong>Event Description:</strong> @Model.EventDescription</div>
+<div><strong>Event Date:</strong> @Model.EventDate</div>
+<div><strong>Sponsor Name:</strong> @Model.SponsorName</div>
+<div><strong>Organized by:</strong> @Model.FirstName @Model.LastName</div>

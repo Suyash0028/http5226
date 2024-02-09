@@ -70,8 +70,6 @@ namespace n01629153_Event_Management.Controllers
         [HttpPost]
         public ActionResult Create(Sponsor Sponsor)
         {
-            Debug.WriteLine("the json payload is :");
-            //Debug.WriteLine(Sponsor.EventName);
             //objective: add a new Sponsor into our system using the API
             //curl -H "Content-Type:application/json" -d @Sponsor.json https://localhost:44349/api/SponsorData/AddSponsor 
             string url = "SponsorData/AddSponsor";
@@ -108,14 +106,9 @@ namespace n01629153_Event_Management.Controllers
             string url = "SponsorData/FindSponsor/" + id;
             HttpResponseMessage response = client.GetAsync(url).Result;
 
-            //Debug.WriteLine("The response code is ");
-            //Debug.WriteLine(response.StatusCode);
+            SponsorDto selectedSponsor = response.Content.ReadAsAsync<SponsorDto>().Result;
 
-            SponsorDto selectedEvent = response.Content.ReadAsAsync<SponsorDto>().Result;
-            //Debug.WriteLine("Sponsor received : ");
-            //Debug.WriteLine(selectedEvent.EventName);
-
-            return View(selectedEvent);
+            return View(selectedSponsor);
         }
 
         // POST: Sponsor/Update/5
@@ -149,16 +142,16 @@ namespace n01629153_Event_Management.Controllers
             }
         }
 
-        // GET: Animal/Delete/5
+        // GET: Sponsor/Delete/5
         public ActionResult DeleteConfirm(int id)
         {
             string url = "SponsorData/FindSponsor/" + id;
             HttpResponseMessage response = client.GetAsync(url).Result;
-            SponsorDto selectedanimal = response.Content.ReadAsAsync<SponsorDto>().Result;
-            return View(selectedanimal);
+            SponsorDto selectedSponsor = response.Content.ReadAsAsync<SponsorDto>().Result;
+            return View(selectedSponsor);
         }
 
-        // POST: Animal/Delete/5
+        // POST: Sponsor/Delete/5
         [HttpPost]
         public ActionResult Delete(int id)
         {
@@ -180,7 +173,7 @@ namespace n01629153_Event_Management.Controllers
         public ActionResult ShowEvents(int id)
         {
             //objective: communicate with our Event data api to retrieve a list of events based on sponsor id
-            //curl https://localhost:44349/EventData/ListEventsForSponsors/
+            //curl https://localhost:44349/EventData/ListEventsForSponsors/1
 
             string url = "EventData/ListEventsForSponsors/" + id;
             HttpResponseMessage response = client.GetAsync(url).Result;

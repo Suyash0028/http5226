@@ -27,7 +27,6 @@ namespace n01629153_Event_Management.Controllers
             //objective: communicate with our User data api to retrieve a list of Users
             //curl https://localhost:44349/api/UserData/ListUsers
 
-
             string url = "UserData/ListUsers";
             HttpResponseMessage response = client.GetAsync(url).Result;
 
@@ -37,7 +36,6 @@ namespace n01629153_Event_Management.Controllers
             IEnumerable<UserDto> Users = response.Content.ReadAsAsync<IEnumerable<UserDto>>().Result;
             //Debug.WriteLine("Number of Users received : ");
             //Debug.WriteLine(Users.Count());
-
 
             return View(Users);
         }
@@ -182,6 +180,25 @@ namespace n01629153_Event_Management.Controllers
             {
                 return RedirectToAction("Error");
             }
+        }
+
+        // GET: User/ShowEvents
+        public ActionResult ShowEvents(int id)
+        {
+            //objective: communicate with our Event data api to retrieve a list of events based on user id
+            //curl https://localhost:44349/EventData/ListEventsForUser/
+
+            string url = "EventData/ListEventsForUser/" + id;
+            HttpResponseMessage response = client.GetAsync(url).Result;
+
+            IEnumerable<EventDto> users = response.Content.ReadAsAsync<IEnumerable<EventDto>>().Result;
+
+            url = "UserData/FindUser/" + id;
+            response = client.GetAsync(url).Result;
+            UserDto selectedUser = response.Content.ReadAsAsync<UserDto>().Result;
+            ViewBag.UserName = selectedUser.FirstName + " " + selectedUser.LastName;
+
+            return View(users);
         }
     }
 }

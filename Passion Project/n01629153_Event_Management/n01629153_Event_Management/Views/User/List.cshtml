@@ -3,8 +3,9 @@
     ViewBag.Title = "List";
 }
 
+<a class="btn btn-primary float-end" href="/User/New"><i class="bi-plus"></i>&nbsp;Add new user</a>
 <h2 class="m-3">Users</h2>
-<a class="btn btn-primary float-end" href="/User/New">Add new user</a>
+
 <table class="table align-items-center">
     <thead>
         <tr>
@@ -23,7 +24,7 @@
             <tr>
                 <th scope="row">@user.UserId</th>
                 <td>
-                    @user.FirstName
+                    <a class="font-weight-bold" href="/User/Details/@user.UserId">@user.FirstName</a>
                 </td>
                 <td>
                     @user.LastName
@@ -38,8 +39,9 @@
                     @user.PhoneNumber
                 </td>
                 <td class="align-items-center">
-                    <a class="btn btn-primary m-2" href="/User/Edit/@user.UserId">Edit</a>
-                    <a class="btn btn-danger m-2" href="/User/DeleteConfirm/@user.UserId">Delete</a>
+                    <a class="btn btn-warning m-2" href="/User/Edit/@user.UserId"><i class="bi-pencil"></i>&nbsp;Edit</a>
+                    <a class="btn btn-success m-2" href="/User/ShowEvents/@user.UserId"><i class="bi-eye"></i>&nbsp;Show Events</a>
+                    <a class="btn btn-danger m-2" href="/User/DeleteConfirm/@user.UserId"><i class="bi-trash"></i>&nbsp;Delete</a>
                 </td>
             </tr>
         }

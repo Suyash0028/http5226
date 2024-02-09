@@ -3,16 +3,19 @@
     ViewBag.Title = "List";
 }
 
+<a class="btn btn-primary float-end" href="/Sponsor/New"><i class="bi-plus"></i>&nbsp;Add new Sponsor</a>
 <h2 class="m-3">Sponsors</h2>
-<a class="btn btn-primary m-3 float-t" href="/Sponsor/New">Add new Sponsor</a>
-<ul class="list-group">
-    @foreach (var sponsor in Model)
-    {
-      <li class="list-group-item">
-          <h4><a class="font-weight-bold" href="/Sponsor/Details/@sponsor.SponsorId">@sponsor.SponsorName</a></h4>
-          <a class="btn btn-primary float-end m-2" href="/Sponsor/Edit/@sponsor.SponsorId">Edit</a>
-          <a class="btn btn-danger float-end m-2" href="/Sponsor/DeleteConfirm/@sponsor.SponsorId">Delete</a>
-          <a class="btn btn-primary float-end m-2" href="/Sponsor/ShowEvents/@sponsor.SponsorId">Show Events</a>
-      </li>
-    }
-</ul>
+
+<div>
+    <ul class="list-group">
+        @foreach (var sponsor in Model)
+         {
+            <li class="list-group-item">
+                <h4><a class="font-weight-bold" href="/Sponsor/Details/@sponsor.SponsorId">@sponsor.SponsorName</a></h4>
+                <a class="btn btn-danger float-end m-2" href="/Sponsor/DeleteConfirm/@sponsor.SponsorId"><i class="bi-trash"></i>&nbsp;Delete</a>
+                <a class="btn btn-success float-end m-2" href="/Sponsor/ShowEvents/@sponsor.SponsorId"><i class="bi-eye"></i>&nbsp;Show Events</a>
+                <a class="btn btn-warning float-end m-2" href="/Sponsor/Edit/@sponsor.SponsorId"><i class="bi-pencil"></i>&nbsp;Edit</a>
+            </li>
+         }
+    </ul>
+</div>

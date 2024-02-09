@@ -50,7 +50,7 @@ namespace n01629153_Event_Management.Controllers
         /// </summary>
         /// <returns>
         /// HEADER: 200 (OK)
-        /// CONTENT: An Sponsor in the system matching up to the EventId primary key
+        /// CONTENT: An Sponsor in the system matching up to the SponsorId primary key
         /// or
         /// HEADER: 404 (NOT FOUND)
         /// </returns>

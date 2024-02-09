@@ -92,6 +92,43 @@ namespace n01629153_Event_Management.Controllers
             return EventDtos;
         }
         /// <summary>
+        /// Gathers information about all events related to a particular user ID
+        /// </summary>
+        /// <returns>
+        /// HEADER: 200 (OK)
+        /// CONTENT: all events in the database, including their associated user matched with a particular user ID
+        /// </returns>
+        /// <param name="id">user ID.</param>
+        /// <example>
+        /// GET: api/EventData/ListEventsForUser/3
+        /// </example>
+        [HttpGet]
+        [ResponseType(typeof(EventDto))]
+        [Route("api/EventData/ListEventsForUser/{id}")]
+        public List<EventDto> ListEventsForUser(int id)
+        {
+            List<Event> Events = db.Events.Where(a => a.UserId == id).ToList();
+            List<EventDto> EventDtos = new List<EventDto>();
+
+            Events.ForEach(e => EventDtos.Add(new EventDto()
+            {
+                EventId = e.EventId,
+                EventName = e.EventName,
+                EventDescription = e.EventDescription,
+                EventDate = e.EventDate,
+                EventLocation = e.EventLocation,
+                SponsorId = e.Sponsors.SponsorId,
+                SponsorName = e.Sponsors.SponsorName,
+                UserId = e.EventUsers.UserId,
+                UserName = e.EventUsers.UserName,
+                FirstName = e.EventUsers.FirstName,
+                LastName = e.EventUsers.LastName
+            }));
+
+            return EventDtos;
+        }
+
+        /// <summary>
         /// Returns all events in the system.
         /// </summary>
         /// <returns>

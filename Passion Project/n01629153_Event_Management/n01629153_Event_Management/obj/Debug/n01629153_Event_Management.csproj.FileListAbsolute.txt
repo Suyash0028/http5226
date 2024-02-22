@@ -109,7 +109,6 @@ C:\Users\n01629153\source\repos\http5226\Passion Project\n01629153_Event_Managem
 C:\Users\n01629153\source\repos\http5226\Passion Project\n01629153_Event_Management\n01629153_Event_Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\n01629153\source\repos\http5226\Passion Project\n01629153_Event_Management\n01629153_Event_Management\obj\Debug\n01629153_Event_Management.csproj.AssemblyReference.cache
 C:\Users\n01629153\source\repos\http5226\Passion Project\n01629153_Event_Management\n01629153_Event_Management\obj\Debug\n01629153_Event_Management.csproj.CoreCompileInputs.cache
-C:\Users\n01629153\source\repos\http5226\Passion Project\n01629153_Event_Management\n01629153_Event_Management\obj\Debug\n01629153_Event_Management.csproj.CopyComplete
 C:\Users\n01629153\source\repos\http5226\Passion Project\n01629153_Event_Management\n01629153_Event_Management\obj\Debug\n01629153_Event_Management.dll
 C:\Users\n01629153\source\repos\http5226\Passion Project\n01629153_Event_Management\n01629153_Event_Management\obj\Debug\n01629153_Event_Management.pdb
 C:\Users\n01629153\source\repos\http5226\Passion Project\n01629153_Event_Management\n01629153_Event_Management\obj\Debug\n01629153_Event_Management.Migrations.InitialCreate.resources
@@ -244,3 +243,4 @@ C:\Users\n01629153\source\repos\Suyash0028\http5226\Passion Project\n01629153_Ev
 C:\Users\n01629153\source\repos\Suyash0028\http5226\Passion Project\n01629153_Event_Management\n01629153_Event_Management\obj\Debug\n01629153_Event_Management.csproj.CopyComplete
 C:\Users\n01629153\source\repos\Suyash0028\http5226\Passion Project\n01629153_Event_Management\n01629153_Event_Management\obj\Debug\n01629153_Event_Management.dll
 C:\Users\n01629153\source\repos\Suyash0028\http5226\Passion Project\n01629153_Event_Management\n01629153_Event_Management\obj\Debug\n01629153_Event_Management.pdb
+C:\Users\n01629153\Source\Repos\http5226\Passion Project\n01629153_Event_Management\n01629153_Event_Management\obj\Debug\n0162915.4668F03F.Up2Date

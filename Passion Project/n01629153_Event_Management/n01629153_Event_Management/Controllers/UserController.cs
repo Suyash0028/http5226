@@ -1,4 +1,5 @@
 ﻿using n01629153_Event_Management.Models;
+using n01629153_Event_Management.Models.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -45,19 +46,21 @@ namespace n01629153_Event_Management.Controllers
         {
             //objective: communicate with our User data api to retrieve one User
             //curl https://localhost:44349/api/UserData/FindUser/{id}
+            DetailEvent ViewModel = new DetailEvent();
 
             string url = "Userdata/FindUser/" + id;
             HttpResponseMessage response = client.GetAsync(url).Result;
-
-            Debug.WriteLine("The response code is ");
-            Debug.WriteLine(response.StatusCode);
-
             UserDto selectedUser = response.Content.ReadAsAsync<UserDto>().Result;
-            Debug.WriteLine("User received : ");
-            Debug.WriteLine(selectedUser.UserName);
 
+            url = "EventData/ListEventsForUser/" + id;
+            response = client.GetAsync(url).Result;
 
-            return View(selectedUser);
+            IEnumerable<EventDto> userEvents = response.Content.ReadAsAsync<IEnumerable<EventDto>>().Result;
+
+            ViewModel.SelectedUser = selectedUser;
+            ViewModel.UserEvents = userEvents;
+
+            return View(ViewModel);
         }
 
         public ActionResult Error()

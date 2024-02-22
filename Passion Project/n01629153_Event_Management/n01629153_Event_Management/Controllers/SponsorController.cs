@@ -1,4 +1,5 @@
 ﻿using n01629153_Event_Management.Models;
+using n01629153_Event_Management.Models.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -46,13 +47,21 @@ namespace n01629153_Event_Management.Controllers
         {
             //objective: communicate with our Sponsor data api to retrieve one Sponsor
             //curl https://localhost:44349/api/SponsorData/FindSponsor/{id}
-
+            DetailEvent ViewModel = new DetailEvent();
             string url = "SponsorData/FindSponsor/" + id;
             HttpResponseMessage response = client.GetAsync(url).Result;
 
             SponsorDto selectedSponsor = response.Content.ReadAsAsync<SponsorDto>().Result;
 
-            return View(selectedSponsor);
+            url = "EventData/ListEventsForSponsors/" + id;
+            response = client.GetAsync(url).Result;
+
+            IEnumerable<EventDto> sponsorEvents = response.Content.ReadAsAsync<IEnumerable<EventDto>>().Result;
+
+            ViewModel.SelectedSponsor = selectedSponsor;
+            ViewModel.SponsorEvents = sponsorEvents;
+
+            return View(ViewModel);
         }
 
         public ActionResult Error()
@@ -168,25 +177,6 @@ namespace n01629153_Event_Management.Controllers
             {
                 return RedirectToAction("Error");
             }
-        }
-        // GET: Sponsor/ShowEvents
-        public ActionResult ShowEvents(int id)
-        {
-            //objective: communicate with our Event data api to retrieve a list of events based on sponsor id
-            //curl https://localhost:44349/EventData/ListEventsForSponsors/1
-
-            string url = "EventData/ListEventsForSponsors/" + id;
-            HttpResponseMessage response = client.GetAsync(url).Result;
-
-            IEnumerable<EventDto> sponsors = response.Content.ReadAsAsync<IEnumerable<EventDto>>().Result;
-
-            string sponsorUrl = "SponsorData/FindSponsor/" + id;
-            HttpResponseMessage res = client.GetAsync(sponsorUrl).Result;
-
-            SponsorDto selectedSponsor = res.Content.ReadAsAsync<SponsorDto>().Result; 
-            ViewBag.SponsorName = selectedSponsor.SponsorName;
-
-            return View(sponsors);
         }
     }
 }

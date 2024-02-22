@@ -232,6 +232,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Sponsor.cs" />
     <Compile Include="Models\User.cs" />
+    <Compile Include="Models\ViewModel\DetailEvent.cs" />
     <Compile Include="Models\ViewModel\NewEvent.cs" />
     <Compile Include="Models\ViewModel\UpdateEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -326,8 +327,6 @@
     <Content Include="Views\User\DeleteConfirm.cshtml" />
     <Content Include="Views\User\New.cshtml" />
     <Content Include="Views\User\Edit.cshtml" />
-    <Content Include="Views\Sponsor\ShowEvents.cshtml" />
-    <Content Include="Views\User\ShowEvents.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

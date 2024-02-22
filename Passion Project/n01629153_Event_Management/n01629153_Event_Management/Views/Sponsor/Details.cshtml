@@ -1,9 +1,69 @@
-﻿﻿@model n01629153_Event_Management.Models.SponsorDto
+﻿﻿@model  n01629153_Event_Management.Models.ViewModel.DetailEvent
 @{
     ViewBag.Title = "Details";
 }
 
 <a class="btn btn-primary float-end" href="/Sponsor/List">Back to list</a>
-<h2>@Model.SponsorName</h2>
-<div><strong>Contact Person:</strong> @Model.ContactPerson </div>
-<div><strong>Contact Email:</strong> @Model.ContactEmail </div>
+<h2>@Model.SelectedSponsor.SponsorName</h2>
+<div><strong>Contact Person:</strong> @Model.SelectedSponsor.ContactPerson </div>
+<div><strong>Contact Email:</strong> @Model.SelectedSponsor.ContactEmail </div>
+
+<div class="accordion accordion-flush" id="accordionFlushExample">
+    @if (Model.SponsorEvents.Where(e => e.EventDate > DateTime.Now).Count() > 0)
+    {
+        <h3 class="mt-3">Upcoming Events</h3>
+        foreach (var listEvents in Model.SponsorEvents.Where(e => e.EventDate > DateTime.Now).OrderBy(x => x.EventDate))
+        {
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-@listEvents.EventId" aria-expanded="false" aria-controls="flush-@listEvents.EventId">
+                        @listEvents.EventName
+                    </button>
+                </h2>
+                <div id="flush-@listEvents.EventId" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <strong><a href="/Event/Details/@listEvents.EventId">@listEvents.EventName</a></strong>
+                        <div><strong>Date: @listEvents.EventDate</strong></div>
+                        <div><strong>Event Description:</strong> @listEvents.EventDescription</div>
+                        <div><strong>Sponsor Name:</strong> @listEvents.SponsorName</div>
+                        <div><strong>Organized by:</strong> @listEvents.FirstName @listEvents.LastName</div>
+                        <div><strong>Responsible:</strong> @listEvents.UserName</div>
+                        <div>
+                            <a class="btn btn-warning m-2" href="/Event/Edit/@listEvents.EventId"><i class="bi-pencil"></i>&nbsp;Edit</a>
+                            <a class="btn btn-danger m-2 float-r" href="/Event/DeleteConfirm/@listEvents.EventId"><i class="bi-trash"></i>&nbsp;Delete</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+
+    @if (Model.SponsorEvents.Where(e => e.EventDate < DateTime.Now).Count() > 0)
+    {
+        <h3 class="mt-3">Past Events</h3>
+        foreach (var listEvents in Model.SponsorEvents.Where(e => e.EventDate < DateTime.Now).OrderBy(x => x.EventDate))
+        {
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-@listEvents.EventId" aria-expanded="false" aria-controls="flush-@listEvents.EventId">
+                        @listEvents.EventName
+                    </button>
+                </h2>
+                <div id="flush-@listEvents.EventId" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <strong><a href="/Event/Details/@listEvents.EventId">@listEvents.EventName</a></strong>
+                        <div><strong>Date: @listEvents.EventDate</strong></div>
+                        <div><strong>Event Description:</strong> @listEvents.EventDescription</div>
+                        <div><strong>Sponsor Name:</strong> @listEvents.SponsorName</div>
+                        <div><strong>Organized by:</strong> @listEvents.FirstName @listEvents.LastName</div>
+                        <div><strong>Responsible:</strong> @listEvents.UserName</div>
+                        <div>
+                            <a class="btn btn-warning m-2" href="/Event/Edit/@listEvents.EventId"><i class="bi-pencil"></i>&nbsp;Edit</a>
+                            <a class="btn btn-danger m-2 float-r" href="/Event/DeleteConfirm/@listEvents.EventId"><i class="bi-trash"></i>&nbsp;Delete</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>

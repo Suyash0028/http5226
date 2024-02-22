@@ -4,9 +4,10 @@
     ViewBag.Title = "Edit";
 }
 
-<h2>Update User</h2>
+
 
 <a class="btn btn-primary mt-3 float-end" href="/User/List">Back to list</a>
+<h2 class="mt-5">Update User</h2>
 <form action="/User/Update/@Model.UserId" method="POST" class="mt-3">
     <div style="display:none;">
         @* Pass through the user ID *@

@@ -1,125 +1,125 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\",
+  "WorkspaceRootPath": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|c:\\users\\n01629153\\source\\repos\\http5226\\passion project\\n01629153_event_management\\n01629153_event_management\\views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|c:\\users\\n01629153\\source\\repos\\suyash0028\\http5226\\passion project\\n01629153_event_management\\n01629153_event_management\\views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\sponsor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\sponsor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\views\\sponsor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\user\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\user\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\views\\user\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\sponsor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\sponsor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\views\\sponsor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\sponsor\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\sponsor\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\views\\sponsor\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\event\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\event\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\views\\event\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|c:\\users\\n01629153\\source\\repos\\http5226\\passion project\\n01629153_event_management\\n01629153_event_management\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\event\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\event\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\views\\event\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\models\\viewmodel\\updateevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\models\\viewmodel\\updateevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\models\\viewmodel\\updateevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\models\\viewmodel\\newevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\models\\viewmodel\\newevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\models\\viewmodel\\newevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\controllers\\eventdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\controllers\\eventdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\controllers\\eventdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\controllers\\userdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\controllers\\userdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\controllers\\userdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\user\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\user\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\views\\user\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\sponsor\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\sponsor\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\views\\sponsor\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\event\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\event\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\views\\event\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\user\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\user\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\views\\user\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\event\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\event\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\views\\event\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\models\\sponsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\models\\sponsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\models\\sponsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\user\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\user\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\views\\user\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\sponsor\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\sponsor\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\views\\sponsor\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\sponsor\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\sponsor\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\views\\sponsor\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\migrations\\202402061940546_updatedmodelevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\migrations\\202402061940546_updatedmodelevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\migrations\\202402061940546_updatedmodelevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\event\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_event_management\\views\\event\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7FE99FBA-5A10-429A-A718-93D1764E6EA8}|n01629153_Event_Management\\n01629153_Event_Management.csproj|solutionrelative:n01629153_event_management\\views\\event\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -136,9 +136,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\Edit.cshtml",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Views\\Event\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\Edit.cshtml",
               "RelativeToolTip": "n01629153_Event_Management\\Views\\Event\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -146,25 +146,28 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\Edit.cshtml",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Views\\Sponsor\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\Edit.cshtml",
               "RelativeToolTip": "n01629153_Event_Management\\Views\\Sponsor\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-22T19:30:59.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T19:30:59.01Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "New.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\New.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\New.cshtml",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Views\\Sponsor\\New.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\New.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\New.cshtml",
               "RelativeToolTip": "n01629153_Event_Management\\Views\\Sponsor\\New.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -174,9 +177,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Controllers\\UserController.cs",
               "RelativeToolTip": "n01629153_Event_Management\\Controllers\\UserController.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAAAowD4AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -186,9 +189,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "EventDataController.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Controllers\\EventDataController.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Controllers\\EventDataController.cs",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Controllers\\EventDataController.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Controllers\\EventDataController.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Controllers\\EventDataController.cs",
               "RelativeToolTip": "n01629153_Event_Management\\Controllers\\EventDataController.cs",
               "ViewState": "AQIAAHMAAAAAAAAAAAAAAJYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -198,9 +201,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "New.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\New.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\New.cshtml",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Views\\User\\New.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\New.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\New.cshtml",
               "RelativeToolTip": "n01629153_Event_Management\\Views\\User\\New.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -210,9 +213,9 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "New.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\New.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\New.cshtml",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Views\\Event\\New.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\New.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\New.cshtml",
               "RelativeToolTip": "n01629153_Event_Management\\Views\\Event\\New.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -222,87 +225,81 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\Details.cshtml",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Views\\User\\Details.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\Details.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\Details.cshtml",
               "RelativeToolTip": "n01629153_Event_Management\\Views\\User\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-22T19:30:58.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T19:30:58.997Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\List.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\List.cshtml",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Views\\User\\List.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\List.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\List.cshtml",
               "RelativeToolTip": "n01629153_Event_Management\\Views\\User\\List.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-22T19:30:57.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T19:30:57.982Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\List.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\List.cshtml",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Views\\Sponsor\\List.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\List.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\List.cshtml",
               "RelativeToolTip": "n01629153_Event_Management\\Views\\Sponsor\\List.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-22T19:30:58.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T19:30:58.073Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\Details.cshtml",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Views\\Sponsor\\Details.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\Details.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\Details.cshtml",
               "RelativeToolTip": "n01629153_Event_Management\\Views\\Sponsor\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-22T19:30:58.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T19:30:58.997Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Models\\Event.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Models\\Event.cs",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Models\\Event.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Models\\Event.cs",
               "RelativeToolTip": "n01629153_Event_Management\\Models\\Event.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T19:30:59.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T19:30:59.002Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\Edit.cshtml",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Views\\User\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\Edit.cshtml",
               "RelativeToolTip": "n01629153_Event_Management\\Views\\User\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-22T19:30:59.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T19:30:59.003Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\Details.cshtml",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Views\\Event\\Details.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\Details.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\Details.cshtml",
               "RelativeToolTip": "n01629153_Event_Management\\Views\\Event\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -312,22 +309,21 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\List.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\List.cshtml",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Views\\Event\\List.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\List.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\List.cshtml",
               "RelativeToolTip": "n01629153_Event_Management\\Views\\Event\\List.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-22T19:30:58.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T19:30:58.994Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "EventController.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Controllers\\EventController.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Controllers\\EventController.cs",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Controllers\\EventController.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Controllers\\EventController.cs",
               "RelativeToolTip": "n01629153_Event_Management\\Controllers\\EventController.cs",
               "ViewState": "AQIAAGsAAAAAAAAAAAAuwH8AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -337,9 +333,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "UpdateEvent.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Models\\ViewModel\\UpdateEvent.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Models\\ViewModel\\UpdateEvent.cs",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Models\\ViewModel\\UpdateEvent.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Models\\ViewModel\\UpdateEvent.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Models\\ViewModel\\UpdateEvent.cs",
               "RelativeToolTip": "n01629153_Event_Management\\Models\\ViewModel\\UpdateEvent.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -349,9 +345,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "NewEvent.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Models\\ViewModel\\NewEvent.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Models\\ViewModel\\NewEvent.cs",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Models\\ViewModel\\NewEvent.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Models\\ViewModel\\NewEvent.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Models\\ViewModel\\NewEvent.cs",
               "RelativeToolTip": "n01629153_Event_Management\\Models\\ViewModel\\NewEvent.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -361,9 +357,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "UserDataController.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Controllers\\UserDataController.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Controllers\\UserDataController.cs",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Controllers\\UserDataController.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Controllers\\UserDataController.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Controllers\\UserDataController.cs",
               "RelativeToolTip": "n01629153_Event_Management\\Controllers\\UserDataController.cs",
               "ViewState": "AQIAAIUAAAAAAAAAAAAiwL0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -373,9 +369,9 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\Error.cshtml",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Views\\User\\Error.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\Error.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\Error.cshtml",
               "RelativeToolTip": "n01629153_Event_Management\\Views\\User\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -385,9 +381,9 @@
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "n01629153_Event_Management\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -397,9 +393,9 @@
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\Error.cshtml",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Views\\Event\\Error.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\Error.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\Error.cshtml",
               "RelativeToolTip": "n01629153_Event_Management\\Views\\Event\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -409,9 +405,9 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "Sponsor.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Models\\Sponsor.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Models\\Sponsor.cs",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Models\\Sponsor.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Models\\Sponsor.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Models\\Sponsor.cs",
               "RelativeToolTip": "n01629153_Event_Management\\Models\\Sponsor.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAwBoAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -421,9 +417,9 @@
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "DeleteConfirm.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\DeleteConfirm.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\DeleteConfirm.cshtml",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Views\\User\\DeleteConfirm.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\DeleteConfirm.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\User\\DeleteConfirm.cshtml",
               "RelativeToolTip": "n01629153_Event_Management\\Views\\User\\DeleteConfirm.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -433,9 +429,9 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Models\\User.cs",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Models\\User.cs",
               "RelativeToolTip": "n01629153_Event_Management\\Models\\User.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAxwBEAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -445,9 +441,9 @@
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "DeleteConfirm.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\DeleteConfirm.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\DeleteConfirm.cshtml",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Views\\Sponsor\\DeleteConfirm.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\DeleteConfirm.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\DeleteConfirm.cshtml",
               "RelativeToolTip": "n01629153_Event_Management\\Views\\Sponsor\\DeleteConfirm.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -457,9 +453,9 @@
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\Error.cshtml",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Views\\Sponsor\\Error.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\Error.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Sponsor\\Error.cshtml",
               "RelativeToolTip": "n01629153_Event_Management\\Views\\Sponsor\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -469,9 +465,9 @@
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Controllers\\HomeController.cs",
               "RelativeToolTip": "n01629153_Event_Management\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -481,9 +477,9 @@
               "$type": "Document",
               "DocumentIndex": 28,
               "Title": "202402061940546_updatedmodelevent.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Migrations\\202402061940546_updatedmodelevent.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Migrations\\202402061940546_updatedmodelevent.cs",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Migrations\\202402061940546_updatedmodelevent.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Migrations\\202402061940546_updatedmodelevent.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Migrations\\202402061940546_updatedmodelevent.cs",
               "RelativeToolTip": "n01629153_Event_Management\\Migrations\\202402061940546_updatedmodelevent.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -493,9 +489,9 @@
               "$type": "Document",
               "DocumentIndex": 29,
               "Title": "DeleteConfirm.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\DeleteConfirm.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\DeleteConfirm.cshtml",
               "RelativeDocumentMoniker": "n01629153_Event_Management\\Views\\Event\\DeleteConfirm.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\DeleteConfirm.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\n01629153_Event_Management\\n01629153_Event_Management\\Views\\Event\\DeleteConfirm.cshtml",
               "RelativeToolTip": "n01629153_Event_Management\\Views\\Event\\DeleteConfirm.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",

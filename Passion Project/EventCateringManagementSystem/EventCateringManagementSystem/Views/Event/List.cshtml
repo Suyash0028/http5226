@@ -1,0 +1,22 @@
+﻿﻿﻿@model IEnumerable<EventCateringManagementSystem.Models.EventDto>
+@{
+    ViewBag.Title = "List";
+}
+
+<a class="btn btn-primary float-end" href="/Event/New"><i class="bi-plus"></i>&nbsp;Add new Event</a>
+<div class="accordion accordion-flush m-5" id="accordionFlushExample">
+
+    <h3 class="m-3">Upcoming Events</h3>
+    @foreach (var listEvents in @Model)
+    {
+       <div class="card" style="width: 18rem;">
+           <div class="card-body">
+               <h5 class="card-title">Card title</h5>
+               <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <a href="#" class="card-link">Card link</a>
+               <a href="#" class="card-link">Another link</a>
+           </div>
+       </div>
+    }
+</div>

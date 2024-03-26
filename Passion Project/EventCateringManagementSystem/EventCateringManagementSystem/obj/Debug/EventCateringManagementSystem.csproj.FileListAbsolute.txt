@@ -112,3 +112,5 @@ C:\Users\n01629153\source\repos\Suyash0028\http5226\Passion Project\EventCaterin
 C:\Users\n01629153\source\repos\Suyash0028\http5226\Passion Project\EventCateringManagementSystem\EventCateringManagementSystem\obj\Debug\EventCat.45B2E949.Up2Date
 C:\Users\n01629153\source\repos\Suyash0028\http5226\Passion Project\EventCateringManagementSystem\EventCateringManagementSystem\obj\Debug\EventCateringManagementSystem.dll
 C:\Users\n01629153\source\repos\Suyash0028\http5226\Passion Project\EventCateringManagementSystem\EventCateringManagementSystem\obj\Debug\EventCateringManagementSystem.pdb
+C:\Users\n01629153\source\repos\Suyash0028\http5226\Passion Project\EventCateringManagementSystem\EventCateringManagementSystem\obj\Debug\EventCateringManagementSystem.Migrations.CreatedModels.resources
+C:\Users\n01629153\source\repos\Suyash0028\http5226\Passion Project\EventCateringManagementSystem\EventCateringManagementSystem\obj\Debug\EventCateringManagementSystem.csproj.GenerateResource.cache

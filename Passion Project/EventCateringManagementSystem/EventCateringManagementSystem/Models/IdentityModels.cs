@@ -25,6 +25,13 @@ namespace EventCateringManagementSystem.Models
         {
         }
 
+        // Event Management entity to our system
+        public DbSet<Event> Events { get; set; }
+        public DbSet<Menu> Menus { get; set; }
+        public DbSet<Food> Foods { get; set; }
+        public DbSet<MenuxFood> MenuxFoods { get; set; }
+
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();

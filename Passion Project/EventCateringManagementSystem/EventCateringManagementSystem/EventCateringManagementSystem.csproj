@@ -201,6 +201,7 @@
     <Compile Include="Models\Menu.cs" />
     <Compile Include="Models\Food.cs" />
     <Compile Include="Models\MenuxFood.cs" />
+    <Compile Include="Models\ViewModel\UpdateEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -276,6 +277,10 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Event\List.cshtml" />
+    <Content Include="Views\Event\New.cshtml" />
+    <Content Include="Views\Event\Details.cshtml" />
+    <Content Include="Views\Event\DeleteConfirm.cshtml" />
+    <Content Include="Views\Event\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

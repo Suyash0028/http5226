@@ -1,0 +1,29 @@
+﻿﻿@model EventCateringManagementSystem.Models.EventDto
+@{
+    ViewBag.Title = "New";
+}
+
+<a class="btn btn-primary mt-3 float-end" href="/Event/List">Back to list</a>
+<h2 class="m-5">Create Event</h2>
+
+<form action="/Event/Create" method="POST" class="m-5">
+    <div class="mb-3">
+        <label for="eventName" class="form-label">Event Name:</label>
+        <input type="text" class="form-control" id="eventName" placeholder="Enter event name" name="EventName">
+    </div>
+    <div class="mb-3">
+        <label for="eventDescription" class="form-label">Event Description:</label>
+        <textarea class="form-control" id="eventDescription" rows="3" name="EventDescription"></textarea>
+    </div>
+    <div class="mb-3">
+        <label for="eventDate" class="form-label">Event Date:</label>
+        <input type="date" class="form-control" id="eventDate" name="EventDate">
+    </div>
+    <div class="mb-3">
+        <label for="eventLocation" class="form-label">Event Location:</label>
+        <input type="text" class="form-control" id="eventLocation" placeholder="Enter event location" name="EventLocation">
+    </div>
+    <div class="mb-3">
+        <input type="submit" class="btn btn-primary mb-3" value="Add Event">
+    </div>
+</form>

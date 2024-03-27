@@ -1,0 +1,13 @@
+﻿﻿﻿@model EventCateringManagementSystem.Models.EventDto
+@{
+    ViewBag.Title = "Details";
+}
+
+<a class="btn btn-primary float-end" href="/Event/List">Back to list</a>
+<h2>@Model.EventName</h2>
+<div><strong>Event Description:</strong> @Model.EventDescription</div>
+<div><strong>Event Date:</strong> @Model.EventDate.ToString("MM/dd/yyyy")</div>
+<div><strong>Event Location:</strong> @Model.EventLocation</div>
+<hr/>
+<h2>Menu</h2>
+<a class="btn btn-primary float-end" href="/Event/List">Back to list</a>

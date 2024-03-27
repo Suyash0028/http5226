@@ -4,19 +4,36 @@
 }
 
 <a class="btn btn-primary float-end" href="/Event/New"><i class="bi-plus"></i>&nbsp;Add new Event</a>
-<div class="accordion accordion-flush m-5" id="accordionFlushExample">
-
-    <h3 class="m-3">Upcoming Events</h3>
-    @foreach (var listEvents in @Model)
-    {
-       <div class="card" style="width: 18rem;">
-           <div class="card-body">
-               <h5 class="card-title">Card title</h5>
-               <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-               <a href="#" class="card-link">Card link</a>
-               <a href="#" class="card-link">Another link</a>
-           </div>
-       </div>
-    }
+<div class="content">
+    <div class="container-fluid  mt-5">
+        <div class="row">
+            @if (Model.Count() > 0)
+            {
+                <h3 class="m-3">Events</h3>
+                foreach (var listEvents in Model)
+                {
+                    <div class="card m-3 shadow mb-5 bg-white rounded" style="width: 20rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">@listEvents.EventName</h5>
+                            <h6 class="card-subtitle mb-2">@listEvents.EventDate.ToString("MM/dd/yyyy")</h6>
+                            <h6 class="card-subtitle mb-2">@listEvents.EventDescription</h6>
+                            <p class="card-text ml-5"><strong>Location:</strong>&nbsp;@listEvents.EventLocation</p>
+                            <div class="d-flex justify-content-between">
+                                <a href="/Event/Details/@listEvents.EventId" class="btn btn-warning"><i class="bi-eye"></i>&nbsp;View Details</a>
+                                <a class="btn btn-primary" href="/Event/Edit/@listEvents.EventId"><i class="bi-pencil"></i>&nbsp;Edit</a>
+                            </div>
+                            <a class="trash-icon btn btn-white" style="position: absolute; top: 15px; right: 15px; cursor: pointer;" href="/Event/DeleteConfirm/@listEvents.EventId"><i class="bi-trash text-danger"></i></a>
+                            
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div>
+                    No Events available
+                </div>
+            }
+        </div>
+    </div>
 </div>

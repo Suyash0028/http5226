@@ -76,12 +76,21 @@ namespace EventCateringManagementSystem.Controllers
             //objective: communicate with our Event data api to retrieve one Event
             //curl https://localhost:44377/api/Eventdata/FindEvent/{id}
 
+            DetailEvent ViewModel = new DetailEvent();
+
+            if (User.Identity.IsAuthenticated && User.IsInRole("Admin")) ViewModel.IsAdmin = true;
+            else ViewModel.IsAdmin = false;
+
+
             string url = "EventData/FindEvent/" + id;
             HttpResponseMessage response = client.GetAsync(url).Result;
 
             EventDto selectedEvent = response.Content.ReadAsAsync<EventDto>().Result;
 
-            return View(selectedEvent);
+
+            ViewModel.SelectedEvent = selectedEvent;
+
+            return View(ViewModel);
         }
 
         public ActionResult Error()
@@ -97,6 +106,7 @@ namespace EventCateringManagementSystem.Controllers
 
         // POST: Event/Create
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public ActionResult Create(Event Event)
         {
             Debug.WriteLine("the json payload is :");
@@ -126,6 +136,7 @@ namespace EventCateringManagementSystem.Controllers
         }
 
         // GET: Event/Edit/5
+        [Authorize(Roles = "Admin")]
         public ActionResult Edit(int id)
         {
             //grab the Event information
@@ -150,6 +161,7 @@ namespace EventCateringManagementSystem.Controllers
 
         // POST: Event/Update/5
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public ActionResult Update(int id, Event Event)
         {
             try
@@ -216,6 +228,7 @@ namespace EventCateringManagementSystem.Controllers
 
 
         // GET: Event/Delete/5
+        [Authorize(Roles = "Admin")]
         public ActionResult DeleteConfirm(int id)
         {
             string url = "EventData/FindEvent/" + id;
@@ -226,6 +239,7 @@ namespace EventCateringManagementSystem.Controllers
 
         // POST: Event/Delete/5
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public ActionResult Delete(int id)
         {
             string url = "EventData/DeleteEvent/" + id;

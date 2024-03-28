@@ -1,13 +1,44 @@
-﻿﻿﻿@model EventCateringManagementSystem.Models.EventDto
+﻿﻿﻿@model EventCateringManagementSystem.Models.ViewModel.DetailEvent
 @{
     ViewBag.Title = "Details";
 }
 
 <a class="btn btn-primary float-end" href="/Event/List">Back to list</a>
-<h2>@Model.EventName</h2>
-<div><strong>Event Description:</strong> @Model.EventDescription</div>
-<div><strong>Event Date:</strong> @Model.EventDate.ToString("MM/dd/yyyy")</div>
-<div><strong>Event Location:</strong> @Model.EventLocation</div>
+<h2>@Model.SelectedEvent.EventName</h2>
+<div><strong>Event Description:</strong> @Model.SelectedEvent.EventDescription</div>
+<div><strong>Event Date:</strong> @Model.SelectedEvent.EventDate.ToString("MM/dd/yyyy")</div>
+<div><strong>Event Location:</strong> @Model.SelectedEvent.EventLocation</div>
 <hr/>
 <h2>Menu</h2>
-<a class="btn btn-primary float-end" href="/Event/List">Back to list</a>
+<a class="btn btn-primary float-end" href="/Event/List">Add Menu</a>
+
+
+@*<div class="col-md-6 col-sm-12">
+    <h4>Menus Responsible for @Model.SelectedEvent.EventName:</h4>
+    @foreach (var Menu in Model.AvailableMenus)
+    {
+
+        <a href="/Menu/Details/@Menu.MenuID">@Menu.MenuTitle</a>
+        if (Model.IsAdmin)
+        {
+            <a style="color:#ab2020;" href="/Event/Unassociate/@Model.SelectedEvent.EventId?MenuID=@Menu.MenuID">[x]</a>
+        }<br />
+    }
+    @if (Model.IsAdmin)
+    {
+        <div>
+
+            <form method="POST" action="/Event/Associate/@Model.SelectedEvent.EventId">
+                <select name="MenuID">
+                    <option value="">Select Menu</option>
+                    @foreach (var Menu in Model.AvailableMenus)
+                    {
+                        <option value="@Menu.MenuID">@Menu.MenuTitle</option>
+                    }
+
+                </select>
+                <input type="submit" value="Add Menu" />
+            </form>
+        </div>
+    }
+</div>*@

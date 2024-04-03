@@ -1,104 +1,140 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|c:\\users\\n01629153\\source\\repos\\suyash0028\\http5226\\passion project\\eventcateringmanagementsystem\\eventcateringmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|c:\\users\\n01629153\\source\\repos\\http5226\\passion project\\eventcateringmanagementsystem\\eventcateringmanagementsystem\\views\\food\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\food\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\event\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\event\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|c:\\users\\n01629153\\source\\repos\\http5226\\passion project\\eventcateringmanagementsystem\\eventcateringmanagementsystem\\views\\food\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\food\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|c:\\users\\n01629153\\source\\repos\\http5226\\passion project\\eventcateringmanagementsystem\\eventcateringmanagementsystem\\views\\food\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\food\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\event\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\event\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|c:\\users\\n01629153\\source\\repos\\http5226\\passion project\\eventcateringmanagementsystem\\eventcateringmanagementsystem\\views\\food\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\food\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\event\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\event\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|c:\\users\\n01629153\\source\\repos\\http5226\\passion project\\eventcateringmanagementsystem\\eventcateringmanagementsystem\\views\\food\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\food\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\event\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\event\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|c:\\users\\n01629153\\source\\repos\\http5226\\passion project\\eventcateringmanagementsystem\\eventcateringmanagementsystem\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|c:\\users\\n01629153\\source\\repos\\http5226\\passion project\\eventcateringmanagementsystem\\eventcateringmanagementsystem\\controllers\\fooddatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\controllers\\fooddatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\controllers\\eventdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\controllers\\eventdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|c:\\users\\n01629153\\source\\repos\\http5226\\passion project\\eventcateringmanagementsystem\\eventcateringmanagementsystem\\models\\viewmodel\\detailfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\models\\viewmodel\\detailfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|c:\\users\\n01629153\\source\\repos\\http5226\\passion project\\eventcateringmanagementsystem\\eventcateringmanagementsystem\\models\\viewmodel\\updatefood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\models\\viewmodel\\updatefood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\models\\viewmodel\\updateevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\models\\viewmodel\\updateevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|c:\\users\\n01629153\\source\\repos\\http5226\\passion project\\eventcateringmanagementsystem\\eventcateringmanagementsystem\\models\\viewmodel\\detailevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\models\\viewmodel\\detailevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|c:\\users\\n01629153\\source\\repos\\http5226\\passion project\\eventcateringmanagementsystem\\eventcateringmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\event\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\event\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_EventCateringManagementSystem_20240318032208/True/SqlTable/dbo.AspNetUserRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\models\\viewmodel\\detailsevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\models\\viewmodel\\detailsevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\controllers\\eventdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\controllers\\eventdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\event\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\event\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\models\\viewmodel\\updateevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\models\\viewmodel\\updateevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\event\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\event\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\event\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\event\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\shared\\lockout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\views\\shared\\lockout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\views\\shared\\lockout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\models\\menuxfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\models\\menuxfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\models\\menuxfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\models\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\models\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\models\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\models\\manageviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\eventcateringmanagementsystem\\models\\manageviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B1BDA60-2A75-4A0B-B4D8-9F742BBAE84C}|EventCateringManagementSystem\\EventCateringManagementSystem.csproj|solutionrelative:eventcateringmanagementsystem\\models\\manageviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -109,96 +145,197 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Account\\Register.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABDAAAA",
+              "DocumentIndex": 0,
+              "Title": "New.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Food\\New.cshtml",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Food\\New.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Food\\New.cshtml",
+              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Food\\New.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-28T19:42:40.989Z"
+              "WhenOpened": "2024-04-03T18:39:02.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Food\\List.cshtml",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Food\\List.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Food\\List.cshtml",
+              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Food\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAADaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T18:38:54.069Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAIwCAAAAAyAAAA",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Food\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Food\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Food\\Edit.cshtml",
+              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Food\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-28T19:36:04.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-28T19:01:38.695Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "EventCateringManagementSystem\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAIYAAAAAAAAAAAAAwKAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T18:52:49.233Z"
+              "WhenOpened": "2024-04-03T18:38:43.149Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "dbo.AspNetUserRoles [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_EventCateringManagementSystem_20240318032208/True/SqlTable/dbo.AspNetUserRoles.sql",
-              "ToolTip": "dbo.AspNetUserRoles [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-28T18:30:57.262Z"
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Food\\Details.cshtml",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Food\\Details.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Food\\Details.cshtml",
+              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Food\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T18:38:32.483Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAsAAAA",
+              "DocumentIndex": 8,
+              "Title": "DeleteConfirm.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Food\\DeleteConfirm.cshtml",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Food\\DeleteConfirm.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Food\\DeleteConfirm.cshtml",
+              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Food\\DeleteConfirm.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-28T18:14:46.542Z"
+              "WhenOpened": "2024-04-03T18:38:21.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FoodController.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Controllers\\FoodController.cs",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Controllers\\FoodController.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Controllers\\FoodController.cs",
+              "RelativeToolTip": "EventCateringManagementSystem\\Controllers\\FoodController.cs",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAswL4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T18:31:34.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DeleteConfirm.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Event\\DeleteConfirm.cshtml",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Event\\DeleteConfirm.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Event\\DeleteConfirm.cshtml",
+              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Event\\DeleteConfirm.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T20:38:11.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Event\\Details.cshtml",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Event\\Details.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Event\\Details.cshtml",
+              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Event\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T19:59:18.613Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Event\\Details.cshtml",
-              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Event\\Details.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Event\\Details.cshtml",
-              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Event\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABAAAAA",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Event\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Event\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Event\\Edit.cshtml",
+              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Event\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T19:59:18.613Z"
+              "WhenOpened": "2024-03-27T20:52:43.181Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Event\\List.cshtml",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Event\\List.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Event\\List.cshtml",
+              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Event\\List.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T20:28:34.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "New.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Event\\New.cshtml",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Event\\New.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Event\\New.cshtml",
+              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Event\\New.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T19:18:21.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FoodDataController.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Controllers\\FoodDataController.cs",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Controllers\\FoodDataController.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Controllers\\FoodDataController.cs",
+              "RelativeToolTip": "EventCateringManagementSystem\\Controllers\\FoodDataController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T18:31:55.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DetailFood.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\ViewModel\\DetailFood.cs",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Models\\ViewModel\\DetailFood.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\ViewModel\\DetailFood.cs",
+              "RelativeToolTip": "EventCateringManagementSystem\\Models\\ViewModel\\DetailFood.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T18:33:19.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateFood.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\ViewModel\\UpdateFood.cs",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Models\\ViewModel\\UpdateFood.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\ViewModel\\UpdateFood.cs",
+              "RelativeToolTip": "EventCateringManagementSystem\\Models\\ViewModel\\UpdateFood.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T18:33:35.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "EventCateringManagementSystem\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -207,83 +344,136 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DetailsEvent.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\ViewModel\\DetailsEvent.cs",
-              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Models\\ViewModel\\DetailsEvent.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\ViewModel\\DetailsEvent.cs",
-              "RelativeToolTip": "EventCateringManagementSystem\\Models\\ViewModel\\DetailsEvent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "DocumentIndex": 24,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "EventCateringManagementSystem\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAAwKAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T19:15:37.814Z"
+              "WhenOpened": "2024-03-28T18:52:49.233Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "New.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Event\\New.cshtml",
-              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Event\\New.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Event\\New.cshtml",
-              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Event\\New.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T19:18:21.967Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EventDataController.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Controllers\\EventDataController.cs",
-              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Controllers\\EventDataController.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Controllers\\EventDataController.cs",
-              "RelativeToolTip": "EventCateringManagementSystem\\Controllers\\EventDataController.cs",
-              "ViewState": "AQIAAPAAAAAAAAAAAAAmwPwAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T20:16:23.776Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EventController.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Controllers\\EventController.cs",
-              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Controllers\\EventController.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Controllers\\EventController.cs",
-              "RelativeToolTip": "EventCateringManagementSystem\\Controllers\\EventController.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAswFoAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T20:16:48.468Z"
+              "DocumentIndex": 23,
+              "Title": "dbo.AspNetUserRoles [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_EventCateringManagementSystem_20240318032208/True/SqlTable/dbo.AspNetUserRoles.sql",
+              "ToolTip": "dbo.AspNetUserRoles [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-03-28T18:30:57.262Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "DeleteConfirm.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Event\\DeleteConfirm.cshtml",
-              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Event\\DeleteConfirm.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Event\\DeleteConfirm.cshtml",
-              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Event\\DeleteConfirm.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T20:38:11.681Z"
+              "Title": "DetailEvent.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\Source\\Repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\ViewModel\\DetailEvent.cs",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Models\\ViewModel\\DetailEvent.cs",
+              "ToolTip": "C:\\Users\\n01629153\\Source\\Repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\ViewModel\\DetailEvent.cs",
+              "RelativeToolTip": "EventCateringManagementSystem\\Models\\ViewModel\\DetailEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T19:15:37.814Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "UpdateEvent.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\ViewModel\\UpdateEvent.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\ViewModel\\UpdateEvent.cs",
               "RelativeDocumentMoniker": "EventCateringManagementSystem\\Models\\ViewModel\\UpdateEvent.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\ViewModel\\UpdateEvent.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\ViewModel\\UpdateEvent.cs",
               "RelativeToolTip": "EventCateringManagementSystem\\Models\\ViewModel\\UpdateEvent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T20:51:23.732Z"
+              "WhenOpened": "2024-03-27T20:51:23.732Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
+              "Title": "EventDataController.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Controllers\\EventDataController.cs",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Controllers\\EventDataController.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Controllers\\EventDataController.cs",
+              "RelativeToolTip": "EventCateringManagementSystem\\Controllers\\EventDataController.cs",
+              "ViewState": "AQIAAAcBAAAAAAAAAAAuwBcBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T20:16:23.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T19:01:38.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAIwCAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T19:36:04.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T19:42:40.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T18:14:46.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Controllers\\EventController.cs",
+              "RelativeToolTip": "EventCateringManagementSystem\\Controllers\\EventController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T20:16:48.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "AccountViewModels.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\AccountViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\AccountViewModels.cs",
               "RelativeDocumentMoniker": "EventCateringManagementSystem\\Models\\AccountViewModels.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\AccountViewModels.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\AccountViewModels.cs",
               "RelativeToolTip": "EventCateringManagementSystem\\Models\\AccountViewModels.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -291,11 +481,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 25,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\_ViewStart.cshtml",
               "RelativeToolTip": "EventCateringManagementSystem\\Views\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -303,23 +493,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Event\\Edit.cshtml",
-              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Event\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Event\\Edit.cshtml",
-              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Event\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T20:52:43.181Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "Lockout.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Shared\\Lockout.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Shared\\Lockout.cshtml",
               "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Shared\\Lockout.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Shared\\Lockout.cshtml",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Shared\\Lockout.cshtml",
               "RelativeToolTip": "EventCateringManagementSystem\\Views\\Shared\\Lockout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -327,23 +505,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Event\\List.cshtml",
-              "RelativeDocumentMoniker": "EventCateringManagementSystem\\Views\\Event\\List.cshtml",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Views\\Event\\List.cshtml",
-              "RelativeToolTip": "EventCateringManagementSystem\\Views\\Event\\List.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-26T20:28:34.463Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "MenuxFood.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\MenuxFood.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\MenuxFood.cs",
               "RelativeDocumentMoniker": "EventCateringManagementSystem\\Models\\MenuxFood.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\MenuxFood.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\MenuxFood.cs",
               "RelativeToolTip": "EventCateringManagementSystem\\Models\\MenuxFood.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -351,11 +517,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 33,
               "Title": "ManageViewModels.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\ManageViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\ManageViewModels.cs",
               "RelativeDocumentMoniker": "EventCateringManagementSystem\\Models\\ManageViewModels.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\ManageViewModels.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\ManageViewModels.cs",
               "RelativeToolTip": "EventCateringManagementSystem\\Models\\ManageViewModels.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -363,11 +529,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 31,
               "Title": "IdentityModels.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\IdentityModels.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\IdentityModels.cs",
               "RelativeDocumentMoniker": "EventCateringManagementSystem\\Models\\IdentityModels.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\IdentityModels.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\IdentityModels.cs",
               "RelativeToolTip": "EventCateringManagementSystem\\Models\\IdentityModels.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAxwB4AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -375,11 +541,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 27,
               "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\Event.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\Event.cs",
               "RelativeDocumentMoniker": "EventCateringManagementSystem\\Models\\Event.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\Event.cs",
               "RelativeToolTip": "EventCateringManagementSystem\\Models\\Event.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwBsAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -387,11 +553,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 32,
               "Title": "Food.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\Food.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\Food.cs",
               "RelativeDocumentMoniker": "EventCateringManagementSystem\\Models\\Food.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\Food.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\Food.cs",
               "RelativeToolTip": "EventCateringManagementSystem\\Models\\Food.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -399,11 +565,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 28,
               "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\Menu.cs",
+              "DocumentMoniker": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\Menu.cs",
               "RelativeDocumentMoniker": "EventCateringManagementSystem\\Models\\Menu.cs",
-              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\Suyash0028\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\Menu.cs",
+              "ToolTip": "C:\\Users\\n01629153\\source\\repos\\http5226\\Passion Project\\EventCateringManagementSystem\\EventCateringManagementSystem\\Models\\Menu.cs",
               "RelativeToolTip": "EventCateringManagementSystem\\Models\\Menu.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

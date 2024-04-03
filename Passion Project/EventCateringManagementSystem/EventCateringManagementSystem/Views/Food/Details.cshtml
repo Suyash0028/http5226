@@ -1,0 +1,10 @@
+﻿@model EventCateringManagementSystem.Models.ViewModel.DetailFood
+@{
+    ViewBag.Title = "Details";
+}
+
+<a class="btn btn-primary float-end" href="/Food/List">Back to list</a>
+<h2>@Model.SelectedFood.FoodName</h2>
+<div><strong>Food Description:</strong> @Model.SelectedFood.FoodDescription</div>
+<div><strong>Food Price:</strong> @Model.SelectedFood.FoodPrice</div>
+

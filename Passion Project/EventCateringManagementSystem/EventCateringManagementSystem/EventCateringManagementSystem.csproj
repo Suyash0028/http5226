@@ -184,6 +184,8 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\EventController.cs" />
     <Compile Include="Controllers\EventDataController.cs" />
+    <Compile Include="Controllers\FoodController.cs" />
+    <Compile Include="Controllers\FoodDataController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -201,8 +203,10 @@
     <Compile Include="Models\Menu.cs" />
     <Compile Include="Models\Food.cs" />
     <Compile Include="Models\MenuxFood.cs" />
-    <Compile Include="Models\ViewModel\DetailsEvent.cs" />
+    <Compile Include="Models\ViewModel\DetailFood.cs" />
+    <Compile Include="Models\ViewModel\DetailEvent.cs" />
     <Compile Include="Models\ViewModel\UpdateEvent.cs" />
+    <Compile Include="Models\ViewModel\UpdateFood.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -285,6 +289,11 @@
     <Content Include="Views\Event\Details.cshtml" />
     <Content Include="Views\Event\DeleteConfirm.cshtml" />
     <Content Include="Views\Event\Edit.cshtml" />
+    <Content Include="Views\Food\DeleteConfirm.cshtml" />
+    <Content Include="Views\Food\Details.cshtml" />
+    <Content Include="Views\Food\Edit.cshtml" />
+    <Content Include="Views\Food\List.cshtml" />
+    <Content Include="Views\Food\New.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

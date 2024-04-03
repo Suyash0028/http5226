@@ -1,0 +1,22 @@
+﻿@model EventCateringManagementSystem.Models.FoodDto
+@{
+    ViewBag.Title = "DeleteConfirm";
+}
+
+<div class="modal-dialog m-5 card m-3 shadow p-3 bg-white rounded" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">@Model.FoodName</h5>
+            <a class="close" data-dismiss="modal" aria-label="Close" href="/Food/List"> <span aria-hidden="true">&times;</span></a>
+        </div>
+        <div class="modal-body">
+            Are you sure you want to delete this Food?
+        </div>
+        <div class="modal-footer">
+            <a class="btn btn-secondary" href="/Food/List">Cancel</a>
+            <form action="/Food/Delete/@Model.FoodID" method="POST">
+                <input class="btn btn-danger m-3" type="submit" value="Confirm Delete" />
+            </form>
+        </div>
+    </div>
+</div>

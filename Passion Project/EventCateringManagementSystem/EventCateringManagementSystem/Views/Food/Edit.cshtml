@@ -1,0 +1,28 @@
+﻿@model EventCateringManagementSystem.Models.ViewModel.UpdateFood
+@{
+    ViewBag.Title = "Edit";
+}
+
+<a class="btn btn-primary mt-3 float-end" href="/Food/List">Back to list</a>
+<h2 class="mt-5">Edit Food</h2>
+<form action="/Food/Update/@Model.SelectedFood.FoodID" method="POST" class="mt-3">
+    <div style="display:none;">
+        @* Pass through the Food ID *@
+        <input type="text" name="FoodID" value="@Model.SelectedFood.FoodID" />
+    </div>
+    <div class="mb-3">
+        <label for="foodName" class="form-label">Food Name:</label>
+        <input type="text" class="form-control" id="foodName" placeholder="Enter food name" name="FoodName" value="@Model.SelectedFood.FoodName">
+    </div>
+    <div class="mb-3">
+        <label for="foodDescription" class="form-label">Food Description:</label>
+        <textarea class="form-control" id="foodDescription" rows="3" name="FoodDescription">@Model.SelectedFood.FoodDescription</textarea>
+    </div>
+    <div class="mb-3">
+        <label for="foodPrice" class="form-label">Food Price:</label>
+        <input type="number" class="form-control" id="foodPrice" placeholder="Enter Food price" name="FoodPrice" value="@Model.SelectedFood.FoodPrice">
+    </div>
+    <div class="mb-3">
+        <input type="submit" class="btn btn-primary mb-3" value="Update">
+    </div>
+</form>

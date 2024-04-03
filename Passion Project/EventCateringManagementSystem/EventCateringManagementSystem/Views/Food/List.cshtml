@@ -1,0 +1,36 @@
+﻿@model IEnumerable<EventCateringManagementSystem.Models.FoodDto>
+@{
+    ViewBag.Title = "List";
+}
+
+<a class="btn btn-primary float-end" href="/Food/New"><i class="bi-plus"></i>&nbsp;Add new Food</a>
+<div class="content">
+    <div class="container-fluid  mt-5">
+        <div class="row">
+            @if (Model.Count() > 0)
+            {
+                <h3 class="m-3">Foods</h3>
+                foreach (var listFoods in Model)
+                {
+                    <div class="card m-3 shadow mb-5 bg-white rounded" style="width: 20rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">@listFoods.FoodName</h5>
+                            <h6 class="card-subtitle mb-2">@listFoods.FoodDescription</h6>
+                            <p class="card-text ml-5"><strong>Price:</strong>&nbsp;$&nbsp;@listFoods.FoodPrice</p>
+                            <div class="d-flex justify-content-between">
+                                <a href="/Food/Details/@listFoods.FoodID" class="btn btn-warning"><i class="bi-eye"></i>&nbsp;View Details</a>
+                                <a class="btn btn-primary" href="/Food/Edit/@listFoods.FoodID"><i class="bi-pencil"></i>&nbsp;Edit</a>
+                            </div>
+                            <a class="trash-icon btn btn-white" style="position: absolute; top: 15px; right: 15px; cursor: pointer;" href="/Food/DeleteConfirm/@listFoods.FoodID"><i class="bi-trash text-danger"></i></a>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div>No Food Available</div>
+            }
+        </div>
+    </div>
+</div>
+

@@ -188,6 +188,8 @@
     <Compile Include="Controllers\FoodDataController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\MenuController.cs" />
+    <Compile Include="Controllers\MenuDataController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -205,8 +207,10 @@
     <Compile Include="Models\MenuxFood.cs" />
     <Compile Include="Models\ViewModel\DetailFood.cs" />
     <Compile Include="Models\ViewModel\DetailEvent.cs" />
+    <Compile Include="Models\ViewModel\DetailMenu.cs" />
     <Compile Include="Models\ViewModel\UpdateEvent.cs" />
     <Compile Include="Models\ViewModel\UpdateFood.cs" />
+    <Compile Include="Models\ViewModel\UpdateMenu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -327,7 +331,9 @@
       <DependentUpon>202403262015031_CreatedModels.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Views\Menu\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

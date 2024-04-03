@@ -19,6 +19,10 @@
         <textarea class="form-control" id="menuDescription" rows="3" name="menuDescription">@Model.SelectedMenu.MenuDescription</textarea>
     </div>
     <div class="mb-3">
+        <label for="eventId" class="form-label">Event ID:</label>
+        <input type="number" class="form-control" id="eventId" name="EventId" value="@Model.SelectedMenu.EventId"/>
+    </div>
+    <div class="mb-3">
         <input type="submit" class="btn btn-primary mb-3" value="Update">
     </div>
 </form>

@@ -9,15 +9,15 @@
 <form action="/Food/Create" method="POST" class="m-5">
     <div class="mb-3">
         <label for="foodName" class="form-label">Food Name:</label>
-        <input type="text" class="form-control" id="FoodName" placeholder="Enter Food name" name="FoodName">
+        <input type="text" class="form-control" id="foodName" placeholder="Enter Food name" name="FoodName">
     </div>
     <div class="mb-3">
         <label for="foodDescription" class="form-label">Food Description:</label>
-        <textarea class="form-control" id="FoodDescription" rows="3" name="FoodDescription"></textarea>
+        <textarea class="form-control" id="foodDescription" rows="3" placeholder="Food Description" name="FoodDescription"></textarea>
     </div>
     <div class="mb-3">
-        <label for="foodPrice" class="form-label">Food Date:</label>
-        <input type="number" class="form-control" id="foodPrice" name="FoodPrice">
+        <label for="foodPrice" class="form-label">Food Price:</label>
+        <input type="number" class="form-control" placeholder="Food Price" id="foodPrice" min="0" step="0.01" name="FoodPrice">
     </div>
     <div class="mb-3">
         <input type="submit" class="btn btn-primary mb-3" value="Add Food">

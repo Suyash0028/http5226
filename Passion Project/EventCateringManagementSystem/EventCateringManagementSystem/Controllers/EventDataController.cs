@@ -97,7 +97,7 @@ namespace EventCateringManagementSystem.Controllers
         /// </example>
         [HttpPost]
         [Route("api/EventData/AssociateEventWithMenu/{Eventid}/{Menuid}")]
-        [Authorize(Roles = "Admin")]
+        
         public IHttpActionResult AssociateEventWithMenu(int Eventid, int Menuid)
         {
 
@@ -131,7 +131,7 @@ namespace EventCateringManagementSystem.Controllers
         /// </example>
         [HttpPost]
         [Route("api/EventData/UnAssociateEventWithMenu/{EventId}/{MenuId}")]
-        [Authorize(Roles = "Admin")]
+        
         public IHttpActionResult UnAssociateEventWithMenu(int Eventid, int Menuid)
         {
 
@@ -169,7 +169,7 @@ namespace EventCateringManagementSystem.Controllers
         [ResponseType(typeof(void))]
         [HttpPost]
         [Route("api/EventData/UpdateEvent/{id}")]
-        [Authorize(Roles = "Admin")]
+        
         public IHttpActionResult UpdateEvent(int id, Event eventColl)
         {
             if (!ModelState.IsValid)
@@ -220,7 +220,7 @@ namespace EventCateringManagementSystem.Controllers
         [ResponseType(typeof(Event))]
         [HttpPost]
         [Route("api/EventData/AddEvent")]
-        [Authorize(Roles = "Admin")]
+        
         public IHttpActionResult AddEvent(Event Event)
         {
             if (!ModelState.IsValid)
@@ -250,7 +250,7 @@ namespace EventCateringManagementSystem.Controllers
         [ResponseType(typeof(Event))]
         [HttpPost]
         [Route("api/EventData/DeleteEvent/{id}")]
-        [Authorize(Roles = "Admin")]
+        
         public IHttpActionResult DeleteEvent(int id)
         {
             Event Event = db.Events.Find(id);

@@ -106,7 +106,7 @@ namespace EventCateringManagementSystem.Controllers
 
         // POST: Event/Create
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        
         public ActionResult Create(Event Event)
         {
             Debug.WriteLine("the json payload is :");
@@ -136,7 +136,7 @@ namespace EventCateringManagementSystem.Controllers
         }
 
         // GET: Event/Edit/5
-        [Authorize(Roles = "Admin")]
+        
         public ActionResult Edit(int id)
         {
             //grab the Event information
@@ -161,7 +161,7 @@ namespace EventCateringManagementSystem.Controllers
 
         // POST: Event/Update/5
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        
         public ActionResult Update(int id, Event Event)
         {
             try
@@ -193,7 +193,7 @@ namespace EventCateringManagementSystem.Controllers
 
         //POST: Event/Associate/{Eventid}
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        
         public ActionResult Associate(int id, int MenuID)
         {
             GetApplicationCookie();//get token credentials
@@ -211,7 +211,7 @@ namespace EventCateringManagementSystem.Controllers
 
         //Get: Event/UnAssociate/{id}?MenuID={MenuID}
         [HttpGet]
-        [Authorize(Roles = "Admin")]
+        
         public ActionResult UnAssociate(int id, int MenuID)
         {
             GetApplicationCookie();//get token credentials
@@ -228,7 +228,7 @@ namespace EventCateringManagementSystem.Controllers
 
 
         // GET: Event/Delete/5
-        [Authorize(Roles = "Admin")]
+        
         public ActionResult DeleteConfirm(int id)
         {
             string url = "EventData/FindEvent/" + id;
@@ -239,7 +239,7 @@ namespace EventCateringManagementSystem.Controllers
 
         // POST: Event/Delete/5
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        
         public ActionResult Delete(int id)
         {
             string url = "EventData/DeleteEvent/" + id;

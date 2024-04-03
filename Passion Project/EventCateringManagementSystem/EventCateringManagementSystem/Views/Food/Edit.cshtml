@@ -20,7 +20,7 @@
     </div>
     <div class="mb-3">
         <label for="foodPrice" class="form-label">Food Price:</label>
-        <input type="number" class="form-control" id="foodPrice" placeholder="Enter Food price" name="FoodPrice" value="@Model.SelectedFood.FoodPrice">
+        <input type="number" class="form-control" id="foodPrice" min="0" step="0.01" placeholder="Enter Food price" name="FoodPrice" value="@Model.SelectedFood.FoodPrice">
     </div>
     <div class="mb-3">
         <input type="submit" class="btn btn-primary mb-3" value="Update">

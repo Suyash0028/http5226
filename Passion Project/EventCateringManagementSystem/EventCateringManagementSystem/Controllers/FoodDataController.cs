@@ -98,7 +98,7 @@ namespace FoodCateringManagementSystem.Controllers
         [ResponseType(typeof(void))]
         [HttpPost]
         [Route("api/FoodData/UpdateFood/{id}")]
-        [Authorize(Roles = "Admin")]
+        
         public IHttpActionResult UpdateFood(int id, Food FoodColl)
         {
             if (!ModelState.IsValid)
@@ -149,7 +149,7 @@ namespace FoodCateringManagementSystem.Controllers
         [ResponseType(typeof(Food))]
         [HttpPost]
         [Route("api/FoodData/AddFood")]
-        [Authorize(Roles = "Admin")]
+        
         public IHttpActionResult AddFood(Food Food)
         {
             if (!ModelState.IsValid)
@@ -179,7 +179,7 @@ namespace FoodCateringManagementSystem.Controllers
         [ResponseType(typeof(Food))]
         [HttpPost]
         [Route("api/FoodData/DeleteFood/{id}")]
-        [Authorize(Roles = "Admin")]
+        
         public IHttpActionResult DeleteFood(int id)
         {
             Food Food = db.Foods.Find(id);

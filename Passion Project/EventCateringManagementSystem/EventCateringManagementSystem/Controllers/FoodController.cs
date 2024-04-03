@@ -106,7 +106,7 @@ namespace FoodCateringManagementSystem.Controllers
 
         // POST: Food/Create
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        
         public ActionResult Create(Food Food)
         {
             Debug.WriteLine("the json payload is :");
@@ -136,7 +136,7 @@ namespace FoodCateringManagementSystem.Controllers
         }
 
         // GET: Food/Edit/5
-        [Authorize(Roles = "Admin")]
+        
         public ActionResult Edit(int id)
         {
             //grab the Food information
@@ -160,7 +160,7 @@ namespace FoodCateringManagementSystem.Controllers
 
         // POST: Food/Update/5
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        
         public ActionResult Update(int id, Food Food)
         {
             try
@@ -192,7 +192,7 @@ namespace FoodCateringManagementSystem.Controllers
 
 
         // GET: Food/Delete/5
-        [Authorize(Roles = "Admin")]
+        
         public ActionResult DeleteConfirm(int id)
         {
             string url = "FoodData/FindFood/" + id;
@@ -203,7 +203,7 @@ namespace FoodCateringManagementSystem.Controllers
 
         // POST: Food/Delete/5
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        
         public ActionResult Delete(int id)
         {
             string url = "FoodData/DeleteFood/" + id;

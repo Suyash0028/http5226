@@ -1,0 +1,38 @@
+﻿@model IEnumerable<EventCateringManagementSystem.Models.MenuDto>
+@{
+    ViewBag.Title = "List";
+}
+
+<a class="btn btn-primary float-end" href="/Menu/New"><i class="bi-plus"></i>&nbsp;Add new Menu</a>
+<div class="content">
+    <div class="container-fluid  mt-5">
+        <div class="row">
+            @if (Model.Count() > 0)
+            {
+                <h3 class="m-3">Menus</h3>
+                foreach (var listMenus in Model)
+                {
+                    <div class="card m-3 shadow mb-5 bg-white rounded" style="width: 20rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">@listMenus.MenuTitle</h5>
+                            <h6 class="card-subtitle mb-2">@listMenus.MenuDescription</h6>
+                            <div class="d-flex justify-content-between">
+                                <a href="/Menu/Details/@listMenus.MenuID" class="btn btn-warning"><i class="bi-eye"></i>&nbsp;View Details</a>
+                                <a class="btn btn-primary" href="/Menu/Edit/@listMenus.MenuID"><i class="bi-pencil"></i>&nbsp;Edit</a>
+                            </div>
+                            <a class="trash-icon btn btn-white" style="position: absolute; top: 15px; right: 15px; cursor: pointer;" href="/Menu/DeleteConfirm/@listMenus.MenuID"><i class="bi-trash text-danger"></i></a>
+
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div>
+                    No Menus available
+                </div>
+            }
+        </div>
+    </div>
+</div>
+

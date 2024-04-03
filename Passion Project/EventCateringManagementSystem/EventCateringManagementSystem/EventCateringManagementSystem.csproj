@@ -298,6 +298,11 @@
     <Content Include="Views\Food\Edit.cshtml" />
     <Content Include="Views\Food\List.cshtml" />
     <Content Include="Views\Food\New.cshtml" />
+    <Content Include="Views\Menu\DeleteConfirm.cshtml" />
+    <Content Include="Views\Menu\Details.cshtml" />
+    <Content Include="Views\Menu\Edit.cshtml" />
+    <Content Include="Views\Menu\List.cshtml" />
+    <Content Include="Views\Menu\New.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
@@ -331,9 +336,7 @@
       <DependentUpon>202403262015031_CreatedModels.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Views\Menu\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

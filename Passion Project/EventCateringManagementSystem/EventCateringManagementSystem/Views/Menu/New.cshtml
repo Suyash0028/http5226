@@ -1,0 +1,22 @@
+﻿@model EventCateringManagementSystem.Models.MenuDto
+@{
+    ViewBag.Title = "New";
+}
+
+<a class="btn btn-primary mt-3 float-end" href="/Menu/List">Back to list</a>
+<h2 class="m-5">Create Menu</h2>
+
+<form action="/Menu/Create" method="POST" class="m-5">
+    <div class="mb-3">
+        <label for="menuName" class="form-label">Menu Title:</label>
+        <input type="text" class="form-control" id="menuName" placeholder="Enter menu name" name="MenuTitle">
+    </div>
+    <div class="mb-3">
+        <label for="menuDescription" class="form-label">Menu Description:</label>
+        <textarea class="form-control" id="menuDescription" rows="3" name="MenuDescription"></textarea>
+    </div>
+    <div class="mb-3">
+        <input type="submit" class="btn btn-primary mb-3" value="Add Menu">
+    </div>
+</form>
+

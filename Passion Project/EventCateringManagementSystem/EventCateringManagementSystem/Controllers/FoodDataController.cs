@@ -8,6 +8,8 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
+using Microsoft.AspNet.Identity;
+using System.Net.Sockets;
 
 namespace FoodCateringManagementSystem.Controllers
 {
@@ -41,6 +43,106 @@ namespace FoodCateringManagementSystem.Controllers
                 FoodPrice = e.FoodPrice
             }));
             return FoodDtos;
+        }
+
+        /// <summary>
+        /// Associates a particular Menu with a particular Food
+        /// </summary>
+        /// <param name="Foodid">The Food ID primary key</param>
+        /// <param name="Menuid">The Menu ID primary key</param>
+        /// <param name="Qty">The number of Foods</param>
+        /// <returns>
+        /// HEADER: 200 (OK)
+        /// or
+        /// HEADER: 404 (NOT FOUND)
+        /// or
+        /// HEADER: 400 (BAD REQUEST)
+        /// </returns>
+        /// <example>
+        /// POST api/FoodData/AssociateFoodWithMenu/4/3/2
+        /// </example>
+        [HttpPost]
+        [Route("api/FoodData/AssociateFoodWithMenu/{Foodid}/{Menuid}/{Qty}")]
+        //[Authorize(Roles = "Admin,Guest")]
+        public IHttpActionResult AssociateFoodWithMenu(int Foodid, int Menuid, int Qty)
+        {
+            //no negative quantity
+            if (Qty < 0) return BadRequest();
+
+
+
+            //Try to Find the Food
+            Food SelectedFood = db.Foods.Find(Foodid);
+
+            //Try to Find the Menu
+            Menu SelectedMenu = db.Menus.Find(Menuid);
+
+            //if Food or Menu doesn't exist return 404
+            if (SelectedFood == null || SelectedMenu == null)
+            {
+                return NotFound();
+            }
+
+            //do not process if the (user is not an admin) and (the Menu does not belong to the user)
+            bool isAdmin = User.IsInRole("Admin");
+            //Forbidden() isn't a natively implemented status like BadRequest()
+            //if (!isAdmin && (SelectedMenu.UserID != User.Identity.GetUserId())) return StatusCode(HttpStatusCode.Forbidden);
+
+            //try to update an already existing association between the Food and Menu
+            MenuxFood MenuxFood = db.MenuxFoods.Where(MxF => (MxF.FoodID == Foodid && MxF.MenuID == Menuid)).FirstOrDefault();
+            if (MenuxFood != null)
+            {
+                MenuxFood.Quantity = Qty;
+                //assume previous price
+            }
+            //otherwise add a new association between the Food and the Menu
+            else
+            {
+                //Get the current price of the Food
+                decimal FoodPrice = SelectedFood.FoodPrice;
+
+                //Create a new instance of Food x Menu
+                MenuxFood NewMxF = new MenuxFood()
+                {
+                    Food = SelectedFood,
+                    Menu = SelectedMenu,
+                    Quantity = Qty,
+                    Price = FoodPrice
+                };
+                db.MenuxFoods.Add(NewMxF);
+            }
+            db.SaveChanges();
+            return Ok();
+        }
+
+        /// <summary>
+        /// Removes an association between a particular Menu and a particular Food
+        /// function is deprecated (not in use). Just use a different qty with 'AssociateFoodWithMenu'
+        /// </summary>
+        /// <param name="MxFID">Menu X Food Primary key</param>
+        /// <returns>
+        /// HEADER: 200 (OK)
+        /// or
+        /// HEADER: 404 (NOT FOUND)
+        /// </returns>
+        /// <example>
+        /// POST api/FoodData/UnAssociateFoodWithMenu/200
+        /// </example>
+        [HttpPost]
+        [Route("api/FoodData/UnAssociateFoodWithMenu/{MxFID}")]
+        [Authorize]
+        public IHttpActionResult UnAssociateFoodWithMenu(int MxFID)
+        {
+
+            //Note: this could also be done with the two FK Food ID and Menu ID
+            //find the Menu x Food
+            MenuxFood SelectedMxF = db.MenuxFoods.Find(MxFID);
+            if (SelectedMxF == null) return NotFound();
+
+            db.MenuxFoods.Remove(SelectedMxF);
+            db.SaveChanges();
+
+            return Ok();
         }
 
         /// <summary>

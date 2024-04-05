@@ -10,8 +10,7 @@
 <div><strong>Event Location:</strong> @Model.SelectedEvent.EventLocation</div>
 <hr/>
 <h2>Menu</h2>
-<a class="btn btn-primary float-end" href="/Event/List">Add Menu</a>
-
+<a class="btn btn-primary float-end" href="/Menu/New">Add Menu</a>
 
 <div class="col-md-6 col-sm-12">
     <h4>Menus Responsible for @Model.SelectedEvent.EventName:</h4>
@@ -22,7 +21,16 @@
         if (Model.IsAdmin)
         {
             <a style="color:#ab2020;" href="/Event/Unassociate/@Model.SelectedEvent.EventId?MenuID=@Menu.MenuID">[x]</a>
-        }<br />
+        }
+
+
+<br />
+<ul>
+    @foreach (var menuItems in Menu.Menus)
+    {
+        <li>@menuItems.Food.FoodName</li>
+    }
+</ul>
     }
     @if (Model.IsAdmin)
     {

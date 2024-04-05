@@ -78,10 +78,10 @@ namespace EventCateringManagementSystem.Controllers
 
             DetailEvent ViewModel = new DetailEvent();
 
-            if (User.Identity.IsAuthenticated && User.IsInRole("Admin")) ViewModel.IsAdmin = true;
-            else ViewModel.IsAdmin = false;
+            /*if (User.Identity.IsAuthenticated && User.IsInRole("Admin")) ViewModel.IsAdmin = true; */
+            //else ViewModel.IsAdmin = false;
 
-
+            ViewModel.IsAdmin = true;
             string url = "EventData/FindEvent/" + id;
             HttpResponseMessage response = client.GetAsync(url).Result;
 

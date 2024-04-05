@@ -68,12 +68,13 @@ namespace MenuCateringManagementSystem.Controllers
             List<Menu> Menu = db.Menus.Where(a=>a.EventId == id).ToList();
             List<MenuDto> MenuDtos = new List<MenuDto>();
 
-            MenuDtos.ForEach(m=>MenuDtos.Add(new MenuDto()
+            Menu.ForEach(m => MenuDtos.Add(new MenuDto()
             {
                 MenuID = m.MenuID,
                 MenuTitle = m.MenuTitle,
                 MenuDescription = m.MenuDescription,
-            }));
+                Menus = m.Menus?.Where(mi=>mi.MenuID == m.MenuID).ToList(),
+            })); 
 
             return MenuDtos;
         }
@@ -98,7 +99,7 @@ namespace MenuCateringManagementSystem.Controllers
             List<Menu> Menu = db.Menus.Where(a => a.EventId != id).ToList();
             List<MenuDto> MenuDtos = new List<MenuDto>();
 
-            MenuDtos.ForEach(m => MenuDtos.Add(new MenuDto()
+            Menu.ForEach(m => MenuDtos.Add(new MenuDto()
             {
                 MenuID = m.MenuID,
                 MenuTitle = m.MenuTitle,
@@ -107,6 +108,7 @@ namespace MenuCateringManagementSystem.Controllers
 
             return MenuDtos;
         }
+
 
         /// <summary>
         /// Returns all Menus in the system.

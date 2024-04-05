@@ -93,6 +93,49 @@ namespace MenuCateringManagementSystem.Controllers
             return View(ViewModel);
         }
 
+        //POST: Menu/Associate
+        [HttpPost]
+        //[Authorize(Roles = "Admin,Guest")]
+        public ActionResult Associate(int FoodID, int MenuID, int Qty)
+        {
+            GetApplicationCookie();//get token credentials
+
+
+            //call our api to associate Menu with keeper
+            string url = "FoodData/AssociateFoodWithMenu/" + FoodID + "/" + MenuID + "/" + Qty;
+            HttpContent content = new StringContent("");
+            content.Headers.ContentType.MediaType = "application/json";
+            HttpResponseMessage response = client.PostAsync(url, content).Result;
+
+            if (response.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Details/" + MenuID);
+            }
+            else
+            {
+                return RedirectToAction("Error");
+            }
+        }
+
+
+        //Get: Menu/UnAssociate/{MxFID}?MenuID={MenuID}
+        //Deprecated. Use Associate instead to change quantity
+        [HttpGet]
+        //[Authorize(Roles = "Admin,Guest")]
+        public ActionResult UnAssociate(int id, int MenuID)
+        {
+            GetApplicationCookie();//get token credentials
+
+
+            //call our api to remove a Menu x Food
+            string url = "FoodData/UnAssociateFoodWithMenu/" + id;
+            HttpContent content = new StringContent("");
+            content.Headers.ContentType.MediaType = "application/json";
+            HttpResponseMessage response = client.PostAsync(url, content).Result;
+
+            return RedirectToAction("Details/" + MenuID);
+        }
+
         public ActionResult Error()
         {
             return View();

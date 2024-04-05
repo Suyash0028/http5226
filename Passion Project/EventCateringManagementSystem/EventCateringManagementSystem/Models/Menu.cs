@@ -33,5 +33,6 @@ namespace EventCateringManagementSystem.Models
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime EventDate { get; set; }
         public string EventLocation { get; set; }
+        public List<MenuxFood> Menus { get; set; }
     }
 }

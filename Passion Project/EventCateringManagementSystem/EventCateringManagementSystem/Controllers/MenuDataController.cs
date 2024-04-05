@@ -8,6 +8,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
+using EventCateringManagementSystem.Models.ViewModel;
 
 namespace MenuCateringManagementSystem.Controllers
 {
@@ -44,6 +45,66 @@ namespace MenuCateringManagementSystem.Controllers
                 EventLocation = e.Event.EventLocation,
                 EventDate = e.Event.EventDate, 
             }));
+            return MenuDtos;
+        }
+
+        /// <summary>
+        /// Gathers information about all events related to a particular Event ID
+        /// </summary>
+        /// <returns>
+        /// HEADER: 200 (OK)
+        /// CONTENT: all menus in the database, including their associated menus matched with a particular Event ID
+        /// </returns>
+        /// <param name="id">Event ID.</param>
+        /// <example>
+        /// GET: api/MenuData/ListMenusForEvents/3
+        /// </example>
+        [HttpGet]
+        [ResponseType(typeof(MenuDto))]
+        [Route("api/MenuData/ListMenusForEvents/{id}")]
+        public List<MenuDto> ListMenusForEvents(int id)
+        {
+
+            List<Menu> Menu = db.Menus.Where(a=>a.EventId == id).ToList();
+            List<MenuDto> MenuDtos = new List<MenuDto>();
+
+            MenuDtos.ForEach(m=>MenuDtos.Add(new MenuDto()
+            {
+                MenuID = m.MenuID,
+                MenuTitle = m.MenuTitle,
+                MenuDescription = m.MenuDescription,
+            }));
+
+            return MenuDtos;
+        }
+
+        /// <summary>
+        /// Gathers information about all events related to a particular Event ID
+        /// </summary>
+        /// <returns>
+        /// HEADER: 200 (OK)
+        /// CONTENT: all menus in the database, not including into that event matched with a particular Event ID
+        /// </returns>
+        /// <param name="id">Event ID.</param>
+        /// <example>
+        /// GET: api/MenuData/ListAvailableMenusForEvents/3
+        /// </example>
+        [HttpGet]
+        [ResponseType(typeof(MenuDto))]
+        [Route("api/MenuData/ListAvailableMenusForEvents/{id}")]
+        public List<MenuDto> ListAvailableMenusForEvents(int id)
+        {
+
+            List<Menu> Menu = db.Menus.Where(a => a.EventId != id).ToList();
+            List<MenuDto> MenuDtos = new List<MenuDto>();
+
+            MenuDtos.ForEach(m => MenuDtos.Add(new MenuDto()
+            {
+                MenuID = m.MenuID,
+                MenuTitle = m.MenuTitle,
+                MenuDescription = m.MenuDescription,
+            }));
+
             return MenuDtos;
         }
 
@@ -106,7 +167,6 @@ namespace MenuCateringManagementSystem.Controllers
         [ResponseType(typeof(void))]
         [HttpPost]
         [Route("api/MenuData/UpdateMenu/{id}")]
-
         public IHttpActionResult UpdateMenu(int id, Menu MenuColl)
         {
             if (!ModelState.IsValid)

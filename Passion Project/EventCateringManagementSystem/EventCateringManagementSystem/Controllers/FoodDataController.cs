@@ -174,8 +174,9 @@ namespace FoodCateringManagementSystem.Controllers
                     FoodID = foodDetails.FoodID,
                     FoodName = foodDetails.FoodName,
                     FoodDescription = foodDetails.FoodDescription,
-                    FoodPrice = foodDetails.FoodPrice,
+                    Price = foodDetails.FoodPrice,
                     Quantity = food.Quantity,
+                    MenuID = food.MenuID
                 });
             }
 
@@ -199,25 +200,49 @@ namespace FoodCateringManagementSystem.Controllers
         [Route("api/FoodData/ListAvailableFoodsForMenu/{id}")]
         public List<MenuxFoodDto> ListAvailableFoodsForMenu(int id)
         {
-            List<MenuxFood> Foods = db.MenuxFoods.Where(a => a.MenuID != id).ToList();
-            List<MenuxFoodDto> FoodDtos = null;
+            List<MenuxFood> Foods = db.MenuxFoods.Where(a => a.MenuID == id).Include(a => a.Food).ToList();
+            List<MenuxFoodDto> FoodDtos = new List<MenuxFoodDto>();
 
-            foreach (var food in Foods)
+            if(Foods.Count() > 0)
             {
 
-                Food foodDetails = db.Foods.Find(food.FoodID);
 
-                FoodDtos.Add(new MenuxFoodDto()
+                foreach (var food in Foods)
                 {
-                    FoodID = foodDetails.FoodID,
-                    FoodName = foodDetails.FoodName,
-                    FoodDescription = foodDetails.FoodDescription,
-                    FoodPrice = foodDetails.FoodPrice,
-                    Quantity = food.Quantity,
-                });
+
+                    List<Food> foodDetails = db.Foods.Where(f => f.FoodID != food.FoodID).ToList();
+
+                    foreach (var foodDetail in foodDetails)
+                    {
+                        FoodDtos.Add(new MenuxFoodDto()
+                        {
+                            FoodID = foodDetail.FoodID,
+                            FoodName = foodDetail.FoodName,
+                            FoodDescription = foodDetail.FoodDescription,
+                            Price = foodDetail.FoodPrice,
+                            Quantity = 1,
+                            MenuID = id
+                        });
+                    }
+                }
             }
+            else
+            {
+                List<Food> foodDetails = db.Foods.ToList();
 
-
+                foreach (var foodDetail in foodDetails)
+                {
+                    FoodDtos.Add(new MenuxFoodDto()
+                    {
+                        FoodID = foodDetail.FoodID,
+                        FoodName = foodDetail.FoodName,
+                        FoodDescription = foodDetail.FoodDescription,
+                        Price = foodDetail.FoodPrice,
+                        Quantity = 1,
+                        MenuID = id
+                    });
+                }
+            }
             return FoodDtos;
         }
 

@@ -73,7 +73,7 @@ namespace MenuCateringManagementSystem.Controllers
                 MenuID = m.MenuID,
                 MenuTitle = m.MenuTitle,
                 MenuDescription = m.MenuDescription,
-                Menus = m.Menus?.Where(mi=>mi.MenuID == m.MenuID).ToList(),
+                //Menus = m.Menus?.Where(mi=>mi.MenuID == m.MenuID).ToList(),
             })); 
 
             return MenuDtos;

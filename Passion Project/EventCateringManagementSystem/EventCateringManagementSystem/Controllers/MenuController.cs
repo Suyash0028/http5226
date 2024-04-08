@@ -91,9 +91,9 @@ namespace MenuCateringManagementSystem.Controllers
             response = client.GetAsync(url).Result;
             List<MenuxFoodDto> selectedFood = response.Content.ReadAsAsync<List<MenuxFoodDto>>().Result;
 
-            url = "FoodData/ListFoods";
+            url = "FoodData/ListAvailableFoodsForMenu/" + id;
             response = client.GetAsync(url).Result;
-            List<Food> availableFood = response.Content.ReadAsAsync<List<Food>>().Result;
+            List<MenuxFoodDto> availableFood = response.Content.ReadAsAsync<List<MenuxFoodDto>>().Result;
 
             ViewModel.SelectedFood = selectedFood;
             ViewModel.AvailableFood = availableFood;

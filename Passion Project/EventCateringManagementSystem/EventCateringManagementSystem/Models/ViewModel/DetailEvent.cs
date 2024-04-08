@@ -9,8 +9,8 @@ namespace EventCateringManagementSystem.Models.ViewModel
     {
         public bool IsAdmin { get; set; }
         public EventDto SelectedEvent { get; set; }
-        public IEnumerable<MenuDto> SelectedMenus { get; set; }
+        public List<MenuDto> SelectedMenus { get; set; }
 
-        public IEnumerable<MenuDto> AvailableMenus { get; set; }
+        public List<MenuDto> AvailableMenus { get; set; }
     }
 }

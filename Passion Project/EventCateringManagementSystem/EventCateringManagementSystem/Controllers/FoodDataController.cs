@@ -5,11 +5,11 @@ using System.Data.Entity.Infrastructure;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 using Microsoft.AspNet.Identity;
 using System.Net.Sockets;
+using System.Web.UI.WebControls;
 
 namespace FoodCateringManagementSystem.Controllers
 {
@@ -75,7 +75,7 @@ namespace FoodCateringManagementSystem.Controllers
             Food SelectedFood = db.Foods.Find(Foodid);
 
             //Try to Find the Menu
-            Menu SelectedMenu = db.Menus.Find(Menuid);
+            EventCateringManagementSystem.Models.Menu SelectedMenu = db.Menus.Find(Menuid);
 
             //if Food or Menu doesn't exist return 404
             if (SelectedFood == null || SelectedMenu == null)
@@ -129,19 +129,65 @@ namespace FoodCateringManagementSystem.Controllers
         /// POST api/FoodData/UnAssociateFoodWithMenu/200
         /// </example>
         [HttpPost]
-        [Route("api/FoodData/UnAssociateFoodWithMenu/{MxFID}")]
-        [Authorize]
-        public IHttpActionResult UnAssociateFoodWithMenu(int MxFID)
+        [Route("api/FoodData/UnAssociateFoodWithMenu/{Foodid}/{Menuid}/{MxFId}/{Qty}")]
+        //[Authorize]
+        public IHttpActionResult UnAssociateFoodWithMenu(int Foodid, int Menuid, int MxFId, int Qty)
         {
 
-            //Note: this could also be done with the two FK Food ID and Menu ID
-            //find the Menu x Food
-            MenuxFood SelectedMxF = db.MenuxFoods.Find(MxFID);
-            if (SelectedMxF == null) return NotFound();
+            //no negative quantity
+            if (Qty < 0 || Qty == 0)
+            {
+                //Note: this could also be done with the two FK Food ID and Menu ID
+                //find the Menu x Food
+                MenuxFood SelectedMxF = db.MenuxFoods.Find(MxFId);
+                if (SelectedMxF == null) return NotFound();
 
-            db.MenuxFoods.Remove(SelectedMxF);
+                db.MenuxFoods.Remove(SelectedMxF);
+                db.SaveChanges();
+                return Ok();
+            }
+
+            //Try to Find the Food
+            Food SelectedFood = db.Foods.Find(Foodid);
+
+            //Try to Find the Menu
+            EventCateringManagementSystem.Models.Menu SelectedMenu = db.Menus.Find(Menuid);
+
+            //if Food or Menu doesn't exist return 404
+            if (SelectedFood == null || SelectedMenu == null)
+            {
+                return NotFound();
+            }
+
+            //do not process if the (user is not an admin) and (the Menu does not belong to the user)
+            bool isAdmin = User.IsInRole("Admin");
+            //Forbidden() isn't a natively implemented status like BadRequest()
+            //if (!isAdmin && (SelectedMenu.UserID != User.Identity.GetUserId())) return StatusCode(HttpStatusCode.Forbidden);
+
+            //try to update an already existing association between the Food and Menu
+            MenuxFood MenuxFood = db.MenuxFoods.Where(MxF => (MxF.FoodID == Foodid && MxF.MenuID == Menuid)).FirstOrDefault();
+            if (MenuxFood != null)
+            {
+                MenuxFood.Quantity = Qty;
+                //assume previous price
+            }
+            //otherwise add a new association between the Food and the Menu
+            else
+            {
+                //Get the current price of the Food
+                decimal FoodPrice = SelectedFood.FoodPrice;
+
+                //Create a new instance of Food x Menu
+                MenuxFood NewMxF = new MenuxFood()
+                {
+                    Food = SelectedFood,
+                    Menu = SelectedMenu,
+                    Quantity = Qty,
+                    Price = FoodPrice
+                };
+                db.MenuxFoods.Add(NewMxF);
+            }
             db.SaveChanges();
-
             return Ok();
         }
 
@@ -176,7 +222,8 @@ namespace FoodCateringManagementSystem.Controllers
                     FoodDescription = foodDetails.FoodDescription,
                     Price = foodDetails.FoodPrice,
                     Quantity = food.Quantity,
-                    MenuID = food.MenuID
+                    MenuID = food.MenuID,
+                    MenuxFoodID = food.MenuxFoodID,
                 });
             }
 
@@ -203,26 +250,28 @@ namespace FoodCateringManagementSystem.Controllers
             List<MenuxFood> Foods = db.MenuxFoods.Where(a => a.MenuID == id).Include(a => a.Food).ToList();
             List<MenuxFoodDto> FoodDtos = new List<MenuxFoodDto>();
 
-            if(Foods.Count() > 0)
+            if (Foods.Count() > 0)
             {
-
+                //It is in loop so it is not filter the whole collection - Need to find some solution to filter the whole collection
+                List<Food> foodDetails = db.Foods.ToList();
 
                 foreach (var food in Foods)
                 {
-
-                    List<Food> foodDetails = db.Foods.Where(f => f.FoodID != food.FoodID).ToList();
-
                     foreach (var foodDetail in foodDetails)
                     {
-                        FoodDtos.Add(new MenuxFoodDto()
+                        if (food.FoodID != foodDetail.FoodID)
                         {
-                            FoodID = foodDetail.FoodID,
-                            FoodName = foodDetail.FoodName,
-                            FoodDescription = foodDetail.FoodDescription,
-                            Price = foodDetail.FoodPrice,
-                            Quantity = 1,
-                            MenuID = id
-                        });
+                            FoodDtos.Add(new MenuxFoodDto()
+                            {
+                                FoodID = foodDetail.FoodID,
+                                FoodName = foodDetail.FoodName,
+                                FoodDescription = foodDetail.FoodDescription,
+                                Price = foodDetail.FoodPrice,
+                                Quantity = 1,
+                                MenuID = id,
+                                MenuxFoodID = food.MenuxFoodID,
+                            });
+                        }
                     }
                 }
             }

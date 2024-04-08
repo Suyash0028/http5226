@@ -20,15 +20,15 @@
         foreach (var menu in Model.SelectedFood)
         {
             subtotal += (menu.Price * menu.Quantity);
-
             <div class="ledgeritem">
                 <div class="form-check d-flex">
                     &nbsp;
                     <form action="/Menu/UnAssociate" method="POST">
                         <input class="d-none" name="MenuID" value="@menu.MenuID" />
                         <input class="d-none" name="FoodID" value="@menu.FoodID" />
+                        <input class="d-none" name="MxFId" value="@menu.MenuxFoodID" />
                         <input class="d-none" name="Quantity" value="@(menu.Quantity-1)" />
-                        <input type="submit" value=" - " />
+                        <input type="submit" value="-" />
                     </form>
                     &nbsp;
                     <form action="/Menu/Associate" method="POST">
@@ -40,9 +40,8 @@
                         <input class="d-none" name="Quantity" value="@(menu.Quantity+1)" />
                         <input type="submit" value="+" />
                     </form>
+                    <div>&nbsp; @menu.Quantity x @menu.FoodName &nbsp;</div>
                 </div>
-                &nbsp;<br />
-                @menu.Quantity x @menu.FoodName
             </div>
         }
     }

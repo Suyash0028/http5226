@@ -128,17 +128,22 @@ namespace MenuCateringManagementSystem.Controllers
 
         //Get: Menu/UnAssociate/{MxFID}?MenuID={MenuID}
         //Deprecated. Use Associate instead to change quantity
-        [HttpGet]
+        [HttpPost]
         //[Authorize(Roles = "Admin,Guest")]
-        public ActionResult UnAssociate(int id, int MenuID)
+        public ActionResult UnAssociate(int MenuID,int FoodID, int MxFId, int Quantity)
         {
             GetApplicationCookie();//get token credentials
 
+            //call our api to unassociate game with genre
+            string url = "FoodData/UnAssociateFoodWithMenu/" + FoodID + "/" + MenuID + "/" + MxFId + "/" + Quantity;
 
-            //call our api to remove a Menu x Food
-            string url = "FoodData/UnAssociateFoodWithMenu/" + id;
+            // append an empty string content as this is a post request without data
             HttpContent content = new StringContent("");
+
+            // update the content-type property
             content.Headers.ContentType.MediaType = "application/json";
+
+            // send the request and read the results
             HttpResponseMessage response = client.PostAsync(url, content).Result;
 
             return RedirectToAction("Details/" + MenuID);

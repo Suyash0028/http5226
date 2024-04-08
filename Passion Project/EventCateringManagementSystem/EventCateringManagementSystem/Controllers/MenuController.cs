@@ -83,11 +83,20 @@ namespace MenuCateringManagementSystem.Controllers
 
 
             string url = "MenuData/FindMenu/" + id;
-            HttpResponseMessage response = client.GetAsync(url).Result;
 
+            HttpResponseMessage response = client.GetAsync(url).Result;
             MenuDto selectedMenu = response.Content.ReadAsAsync<MenuDto>().Result;
 
+            url = "FoodData/ListFoodsForMenu/" + id;
+            response = client.GetAsync(url).Result;
+            List<MenuxFoodDto> selectedFood = response.Content.ReadAsAsync<List<MenuxFoodDto>>().Result;
 
+            url = "FoodData/ListFoods";
+            response = client.GetAsync(url).Result;
+            List<Food> availableFood = response.Content.ReadAsAsync<List<Food>>().Result;
+
+            ViewModel.SelectedFood = selectedFood;
+            ViewModel.AvailableFood = availableFood;
             ViewModel.SelectedMenu = selectedMenu;
 
             return View(ViewModel);
@@ -96,13 +105,12 @@ namespace MenuCateringManagementSystem.Controllers
         //POST: Menu/Associate
         [HttpPost]
         //[Authorize(Roles = "Admin,Guest")]
-        public ActionResult Associate(int FoodID, int MenuID, int Qty)
+        public ActionResult Associate(int FoodID, int MenuID, int Quantity)
         {
             GetApplicationCookie();//get token credentials
 
-
             //call our api to associate Menu with keeper
-            string url = "FoodData/AssociateFoodWithMenu/" + FoodID + "/" + MenuID + "/" + Qty;
+            string url = "FoodData/AssociateFoodWithMenu/" + FoodID + "/" + MenuID + "/" + Quantity;
             HttpContent content = new StringContent("");
             content.Headers.ContentType.MediaType = "application/json";
             HttpResponseMessage response = client.PostAsync(url, content).Result;

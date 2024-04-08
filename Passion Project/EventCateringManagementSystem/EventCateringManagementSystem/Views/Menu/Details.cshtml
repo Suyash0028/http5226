@@ -6,5 +6,68 @@
 <a class="btn btn-primary float-end" href="/Menu/List">Back to list</a>
 <h2>@Model.SelectedMenu.MenuTitle</h2>
 <div><strong>Menu Description:</strong> @Model.SelectedMenu.MenuDescription</div>
+<hr />
+
+<div class="col-md-6 col-sm-12">
+    <h4>Menu Items:</h4>
+    @{
+        decimal subtotal = 0;
+        int initialQty = 1;
+    }
+    @if (Model.SelectedFood != null)
+    {
 
 
+        foreach (var menu in Model.SelectedFood)
+        {
+            subtotal += menu.Price * menu.Quantity;
+            <div class="ledgeritem">
+                <form action="/Menu/Associate" method="POST">
+                    <input  name="MenuID" value="@menu.MenuID" />
+                    <input  name="FoodID" value="@menu.FoodID" />
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="@menu.FoodID" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            @menu.FoodName
+                        </label>
+                    </div>
+                    <input class="d-none" name="Quantity" value="@(menu.Quantity+1)" />
+                    <input type="submit" value="+" />
+                </form>
+                &nbsp;
+                <form action="/Menu/UnAssociate" method="POST">
+                    <input class="d-none" name="MenuID" value="@menu.MenuID" />
+                    <input class="d-none" name="FoodID" value="@menu.FoodID" />
+                    <input class="d-none" name="Quantity" value="@(menu.Quantity-1)" />
+                    <input type="submit" value="-" />
+                </form>
+                &nbsp;
+                @menu.Quantity x @menu.FoodName
+            </div>
+        }
+    }
+
+    @if (Model.AvailableFood != null && Model.SelectedFood == null)
+    {
+        <hr />
+        foreach (var menu in Model.AvailableFood)
+        {
+            <div class="ledgeritem">
+                <form action="/Menu/Associate" method="POST">
+                    <input class="d-none" name="MenuID" value="@Model.SelectedMenu.MenuID" />
+                    <input class="d-none" name="FoodID" value="@menu.FoodID" />
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="@menu.FoodID" id="flexCheckChecked" name="FoodID" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            @menu.FoodName
+                        </label>
+                    </div>
+                    <input class="form-control" name="Quantity" value="@initialQty" />
+                    <input type="submit" value="+" />
+                </form>
+            </div>
+        }
+    }
+    <hr />
+    <div>Total : $@subtotal</div>
+</div>

@@ -146,6 +146,82 @@ namespace FoodCateringManagementSystem.Controllers
         }
 
         /// <summary>
+        /// Gathers information about all Foods related to a particular menu ID
+        /// </summary>
+        /// <returns>
+        /// HEADER: 200 (OK)
+        /// CONTENT: all Foods in the database, including their associated menu matched with a particular menu ID
+        /// </returns>
+        /// <param name="id">Menu ID.</param>
+        /// <example>
+        /// GET: api/FoodData/ListFoodsForMenu/3
+        /// </example>
+        [HttpGet]
+        [ResponseType(typeof(FoodDto))]
+        [Route("api/FoodData/ListFoodsForMenu/{id}")]
+        public List<MenuxFoodDto> ListFoodsForMenu(int id)
+        {
+            List<MenuxFood> Foods = db.MenuxFoods.Where(a => a.MenuID == id).ToList();
+            List<MenuxFoodDto> FoodDtos = new List<MenuxFoodDto>();
+
+            foreach (var food in Foods)
+            {
+                
+                Food foodDetails = db.Foods.Find(food.FoodID);
+
+                FoodDtos.Add(new MenuxFoodDto()
+                {
+                    FoodID = foodDetails.FoodID,
+                    FoodName = foodDetails.FoodName,
+                    FoodDescription = foodDetails.FoodDescription,
+                    FoodPrice = foodDetails.FoodPrice,
+                    Quantity = food.Quantity,
+                });
+            }
+
+
+            return FoodDtos;
+        }
+
+        /// <summary>
+        /// Gathers information about all Foods related to a particular menu ID
+        /// </summary>
+        /// <returns>
+        /// HEADER: 200 (OK)
+        /// CONTENT: all Foods in the database, including their associated menu matched with a particular menu ID
+        /// </returns>
+        /// <param name="id">Menu ID.</param>
+        /// <example>
+        /// GET: api/FoodData/ListAvailableFoodsForMenu/3
+        /// </example>
+        [HttpGet]
+        [ResponseType(typeof(FoodDto))]
+        [Route("api/FoodData/ListAvailableFoodsForMenu/{id}")]
+        public List<MenuxFoodDto> ListAvailableFoodsForMenu(int id)
+        {
+            List<MenuxFood> Foods = db.MenuxFoods.Where(a => a.MenuID != id).ToList();
+            List<MenuxFoodDto> FoodDtos = null;
+
+            foreach (var food in Foods)
+            {
+
+                Food foodDetails = db.Foods.Find(food.FoodID);
+
+                FoodDtos.Add(new MenuxFoodDto()
+                {
+                    FoodID = foodDetails.FoodID,
+                    FoodName = foodDetails.FoodName,
+                    FoodDescription = foodDetails.FoodDescription,
+                    FoodPrice = foodDetails.FoodPrice,
+                    Quantity = food.Quantity,
+                });
+            }
+
+
+            return FoodDtos;
+        }
+
+        /// <summary>
         /// Returns all Foods in the system.
         /// </summary>
         /// <returns>

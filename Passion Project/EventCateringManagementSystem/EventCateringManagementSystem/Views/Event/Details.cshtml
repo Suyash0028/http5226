@@ -9,44 +9,12 @@
 <div><strong>Event Date:</strong> @Model.SelectedEvent.EventDate.ToString("MM/dd/yyyy")</div>
 <div><strong>Event Location:</strong> @Model.SelectedEvent.EventLocation</div>
 <hr/>
-<h2>Menu</h2>
 <a class="btn btn-primary float-end" href="/Menu/New">Add Menu</a>
 
 <div class="col-md-6 col-sm-12">
-    <h4>Menus Responsible for @Model.SelectedEvent.EventName:</h4>
-    @foreach (var Menu in Model.AvailableMenus)
+    <h4>Menus Responsible for @Model.SelectedEvent.EventName - Event:</h4>
+    @foreach (var menu in Model.SelectedMenus)
     {
-
-        <a href="/Menu/Details/@Menu.MenuID">@Menu.MenuTitle</a>
-        if (Model.IsAdmin)
-        {
-            <a style="color:#ab2020;" href="/Event/Unassociate/@Model.SelectedEvent.EventId?MenuID=@Menu.MenuID">[x]</a>
-        }
-
-
-<br />
-<ul>
-    @foreach (var menuItems in Menu.Menus)
-    {
-        <li>@menuItems.Food.FoodName</li>
-    }
-</ul>
-    }
-    @if (Model.IsAdmin)
-    {
-        <div>
-
-            <form method="POST" action="/Event/Associate/@Model.SelectedEvent.EventId">
-                <select name="MenuID">
-                    <option value="">Select Menu</option>
-                    @foreach (var Menu in Model.AvailableMenus)
-                    {
-                        <option value="@Menu.MenuID">@Menu.MenuTitle</option>
-                    }
-
-                </select>
-                <input type="submit" value="Add Menu" />
-            </form>
-        </div>
+        <a style="color:#ab2020;" href="/Menu/Details/@menu.MenuID">@menu.MenuTitle</a><br/>
     }
 </div>

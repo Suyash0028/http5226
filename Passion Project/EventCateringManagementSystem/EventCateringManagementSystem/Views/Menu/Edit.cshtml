@@ -19,8 +19,19 @@
         <textarea class="form-control" id="menuDescription" rows="3" name="menuDescription">@Model.SelectedMenu.MenuDescription</textarea>
     </div>
     <div class="mb-3">
-        <label for="eventId" class="form-label">Event ID:</label>
-        <input type="number" class="form-control" id="eventId" name="EventId" value="@Model.SelectedMenu.EventId"/>
+        <label for="eventId" class="form-label">Event:</label>
+        <select class="form-select" name="EventId" id="eventId">
+            <option disabled>---Select Event---</option>
+            @foreach (var eventOption in Model.EventOptions)
+            {
+                string selected = "";
+                if (eventOption.EventId == Model.SelectedMenu.EventId)
+                {
+                    selected = "selected";
+                }
+                <option value="@eventOption.EventId" @selected>@eventOption.EventName</option>
+            }
+        </select>
     </div>
     <div class="mb-3">
         <input type="submit" class="btn btn-primary mb-3" value="Update">

@@ -157,7 +157,16 @@ namespace MenuCateringManagementSystem.Controllers
         // GET: Menu/New
         public ActionResult New()
         {
-            return View();
+            //information about all events in the system.
+            //GET api/EventData/ListEvents
+            NewMenu ViewModel = new NewMenu();
+            // Get all events
+            string url = "EventData/ListEvents";
+            HttpResponseMessage response = client.GetAsync(url).Result;
+            IEnumerable<EventDto> events = response.Content.ReadAsAsync<IEnumerable<EventDto>>().Result;
+            ViewModel.EventOptions = events;
+
+            return View(ViewModel);
         }
 
         // POST: Menu/Create
@@ -210,6 +219,11 @@ namespace MenuCateringManagementSystem.Controllers
             MenuDto selectedMenu = response.Content.ReadAsAsync<MenuDto>().Result;
             ViewModel.SelectedMenu = selectedMenu;
 
+            // Get all events
+            url = "EventData/ListEvents";
+            response = client.GetAsync(url).Result;
+            IEnumerable<EventDto> events = response.Content.ReadAsAsync<IEnumerable<EventDto>>().Result;
+            ViewModel.EventOptions = events;
 
             return View(ViewModel);
         }

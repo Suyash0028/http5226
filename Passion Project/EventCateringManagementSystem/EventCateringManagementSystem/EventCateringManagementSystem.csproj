@@ -208,6 +208,7 @@
     <Compile Include="Models\ViewModel\DetailFood.cs" />
     <Compile Include="Models\ViewModel\DetailEvent.cs" />
     <Compile Include="Models\ViewModel\DetailMenu.cs" />
+    <Compile Include="Models\ViewModel\NewMenu.cs" />
     <Compile Include="Models\ViewModel\UpdateEvent.cs" />
     <Compile Include="Models\ViewModel\UpdateFood.cs" />
     <Compile Include="Models\ViewModel\UpdateMenu.cs" />

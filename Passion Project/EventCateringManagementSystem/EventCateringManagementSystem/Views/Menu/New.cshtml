@@ -1,4 +1,5 @@
-﻿@model EventCateringManagementSystem.Models.MenuDto
+﻿@model EventCateringManagementSystem.Models.ViewModel.NewMenu
+
 @{
     ViewBag.Title = "New";
 }
@@ -16,8 +17,15 @@
         <textarea class="form-control" id="menuDescription" rows="3" name="MenuDescription"></textarea>
     </div>
     <div class="mb-3">
-        <label for="eventId" class="form-label">Event ID:</label>
-        <input type="number" class="form-control" id="eventId" name="EventId" />
+        <label for="eventId" class="form-label">Event:</label>
+        <select class="form-select" name="EventId">
+            <option selected disabled>---Select Event---</option>
+            @foreach (var eventOption in Model.EventOptions)
+            {
+                <option value="@eventOption.EventId">@eventOption.EventName</option>
+
+            }
+        </select>
     </div>
     <div class="mb-3">
         <input type="submit" class="btn btn-primary mb-3" value="Add Menu">

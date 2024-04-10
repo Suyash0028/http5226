@@ -89,7 +89,7 @@ namespace EventCateringManagementSystem.Controllers
 
 
             ViewModel.SelectedEvent = selectedEvent;
-            //show associated keepers with this animal
+            //show associated menu with this event
             url = "MenuData/ListMenusForEvents/" + id;
             response = client.GetAsync(url).Result;
             List<MenuDto> SelectedMenus = response.Content.ReadAsAsync<List<MenuDto>>().Result;

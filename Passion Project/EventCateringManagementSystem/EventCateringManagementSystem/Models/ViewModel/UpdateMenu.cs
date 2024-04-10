@@ -12,5 +12,6 @@ namespace EventCateringManagementSystem.Models.ViewModel
         //the existing menu information
 
         public MenuDto SelectedMenu { get; set; }
+        public IEnumerable<EventDto> EventOptions { get; set; }
     }
 }

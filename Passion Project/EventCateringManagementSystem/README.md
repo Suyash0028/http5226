@@ -18,7 +18,7 @@ The Event Catering Management System is a web application designed to streamline
 4. **MenuxFood (Bridging Table):**
    - This bridging table establishes a many-to-many relationship between menus and food items. It links menu IDs with corresponding food IDs to indicate which food items are included in each menu.
 
-## Technologies Used:**
+## Technologies Used:
 - .NET Framework
 - Entity Framework
 - C#

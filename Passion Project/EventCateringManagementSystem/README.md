@@ -1,13 +1,13 @@
-**Event Catering Management System**
+# Event Catering Management System
 
 ---
 
-**Description:**
+## Description:
 The Event Catering Management System is a web application designed to streamline the process of managing events, menus, and food items for catering businesses. It utilizes .NET Entity Framework to interact with a database consisting of three main tables: Event, Menu, and Food, along with a bridging table called MenuxFood.
 
 ---
 
-**Tables:**
+## Tables:
 
 1. **Event:**
    - This table stores information about events such as event ID, event name, date, time, location, and any additional details.
@@ -23,7 +23,7 @@ The Event Catering Management System is a web application designed to streamline
 
 ---
 
-**Technologies Used:**
+## Technologies Used:**
 - .NET Framework
 - Entity Framework
 - C#
@@ -33,7 +33,7 @@ The Event Catering Management System is a web application designed to streamline
 
 ---
 
-**Features:**
+## Features:
 - **Event Management:**
   - Create, read, update, and delete events.
   - View event details including date, time, location, and associated menus.
@@ -50,7 +50,7 @@ The Event Catering Management System is a web application designed to streamline
   
 ---
 
-**Installation:**
+## Installation:
 1. Clone the repository to your local machine.
 2. Open the solution in Visual Studio.
 3. Restore NuGet packages if necessary.
@@ -58,13 +58,13 @@ The Event Catering Management System is a web application designed to streamline
 
 ---
 
-**Contributing:**
+## Contributing:
 - Contributions are welcome! Feel free to fork the repository and submit pull requests with your enhancements or bug fixes.
 
 ---
 
 
-**Authors:**
+## Authors:
 - Suyash Kulkarni
    - Worked on Event and Menu module.
 - Deep Patel

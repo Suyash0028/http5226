@@ -65,9 +65,8 @@ The Event Catering Management System is a web application designed to streamline
 
 
 **Authors:**
-Suyash Kulkarni
-- Worked on Event and Menu module.
-Deep Patel
-- Worked on Food module.
-
+- Suyash Kulkarni
+   - Worked on Event and Menu module.
+- Deep Patel
+   - Worked on Food module.
 - We together worked on the relation part between menu and food and how to design it and what functions we will need to show what.
